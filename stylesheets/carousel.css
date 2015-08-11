@@ -134,7 +134,7 @@
 }
 
 .testPurple {
-
+	background-color: purple; 
 	float: left;
 	max-width: 60em;
 	margin-right: 1%;
