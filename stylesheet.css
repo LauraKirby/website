@@ -211,5 +211,10 @@ body {
 }
 
 img {
+  max-height: 400px;
   border-radius: 5px;
+}
+
+.paddingLeft {
+  margin: auto;
 }

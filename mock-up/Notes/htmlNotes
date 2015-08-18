@@ -1,0 +1,28 @@
+
+welcome image
+
+links at the bottom, footer? two footers? 
+
+books get really small when the screen is small. one side of the books disappears. 
+
+wiki globe & formatting disappears too. 
+
+div 
+anchor
+header
+script
+body
+span 
+meta
+
+
+cmd shift 'r' 
+- itea hard reset in browser, will reset your javascript variables
+
+<!DOCTYPE html> //preamble, the browser doesn't use it
+
+start a server from computer: python -m SimpleHTTPServer
+
+Lorem shortcut in sublime
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.

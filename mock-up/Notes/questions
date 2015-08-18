@@ -1,0 +1,56 @@
+questions: 
+loading files
+
+scss v. sass 
+
+http://sass-lang.com/guide
+
+PARTIALS
+You can create partial Sass files that contain little snippets of CSS that you can include in other Sass files. This is a great way to modularize your CSS and help keep things easier to maintain. A partial is simply a Sass file named with a leading underscore. You might name it something like _partial.scss. The underscore lets Sass know that the file is only a partial file and that it should not be generated into a CSS file. Sass partials are used with the @import directive.
+
+Sass builds on top of the current CSS @import and will take the file that you want to import and combine it with the file you're importing into so you can serve a single CSS file to the web browser. (Eliminating an extra http call.)
+
+
+The new main syntax (as of Sass 3) is known as “SCSS”
+
+
+seeds file for adding text
+
+separate folder for images
+
+beauty eithics
+
+prototype with sketch
+
+-----------------------------------------------
+------------------- Compass -------------------
+-----------------------------------------------
+
+You may now add and edit sass stylesheets in the sass subdirectory of your project.
+
+ass files beginning with an underscore are called partials and won't be
+compiled to CSS, but they can be imported into other sass stylesheets.
+
+You can configure your project by editing the config.rb configuration file.
+
+You must compile your sass stylesheets into CSS when they change.
+This can be done in one of the following ways:
+  1. To compile on demand:
+     compass compile [path/to/project]
+  2. To monitor your project for changes and automatically recompile:
+     compass watch [path/to/project]
+
+More Resources:
+  * Website: http://compass-style.org/
+  * Sass: http://sass-lang.com
+  * Community: http://groups.google.com/group/compass-users/
+
+
+To import your new stylesheets add the following lines of HTML (or equivalent) to your webpage:
+<head>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+</head>
