@@ -1,0 +1,206 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+<description>
+This blog serves as a platform to document my progress and share my experiences with individuals who share a common passion for learning to code. I hope you find this information useful, now start hacking!
+</description>
+<title>Her Adventures of Learning to Code</title>
+<generator>Tumblr (3.0; @codetoempower)</generator>
+<link>http://codetoempower.com/</link>
+<item>
+<title>Singleton Class</title>
+<description>
+Singleton classes, not to be confused with the singleton design pattern, refers to adding methods...
+</description>
+<link>http://codetoempower.com/post/125123746522</link>
+<guid>http://codetoempower.com/post/125123746522</guid>
+<pubDate>Sun, 26 Jul 2015 20:12:02 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Ah Ha!</title>
+<description>
+I thought to myself, I&rsquo;m just going to write what I would like to have happen. And, it...
+</description>
+<link>http://codetoempower.com/post/124872727362</link>
+<guid>http://codetoempower.com/post/124872727362</guid>
+<pubDate>Thu, 23 Jul 2015 19:24:59 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Ruby Migrations?</title>
+<description>
+My blog posts often begin as further investigation into a topic I don&rsquo;t quite understand. Not...
+</description>
+<link>http://codetoempower.com/post/125135807357</link>
+<guid>http://codetoempower.com/post/125135807357</guid>
+<pubDate>Mon, 20 Jul 2015 00:00:00 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Structured Query Language (SQL)</title>
+<description>
+According to the International Organization for Standardization (ISO), SQL data structure and the...
+</description>
+<link>http://codetoempower.com/post/125116457202</link>
+<guid>http://codetoempower.com/post/125116457202</guid>
+<pubDate>Fri, 10 Jul 2015 00:00:00 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>
+Summer’s Hottest Shorts: Sublime Snippets & iTerm Aliases
+</title>
+<description>
+To be clear, by “shorts” I mean “shortcuts.”  Here are 3 hot shorts for advancing developers who are...
+</description>
+<link>http://codetoempower.com/post/122043252162</link>
+<guid>http://codetoempower.com/post/122043252162</guid>
+<pubDate>Sat, 20 Jun 2015 21:47:59 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>RESTful Routing</title>
+<description>
+“RESTful routing” refers to a common standard that the developer community has decided to use when...
+</description>
+<link>http://codetoempower.com/post/121931273042</link>
+<guid>http://codetoempower.com/post/121931273042</guid>
+<pubDate>Fri, 19 Jun 2015 13:13:48 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>DELETE: Delete in cruD</title>
+<description>
+The HTTP verb “DELETE” is represented by “delete” within the CRUD acronym. It is used to **delete**...
+</description>
+<link>http://codetoempower.com/post/120986765642</link>
+<guid>http://codetoempower.com/post/120986765642</guid>
+<pubDate>Sun, 07 Jun 2015 22:24:47 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>PUT : Update in crUd</title>
+<description>
+The HTTP verb “PUT” is represented by “update” the acronym CRUD.PUT is most-often utilized for...
+</description>
+<link>http://codetoempower.com/post/120986458827</link>
+<guid>http://codetoempower.com/post/120986458827</guid>
+<pubDate>Sun, 07 Jun 2015 22:20:45 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>POST:  Create in Crud</title>
+<description>
+The HTTP verb “POST” is represented by “Create” within the CRUD acronym. The POST method is used to...
+</description>
+<link>http://codetoempower.com/post/120986020832</link>
+<guid>http://codetoempower.com/post/120986020832</guid>
+<pubDate>Sun, 07 Jun 2015 22:14:56 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>GET: Read in cRud</title>
+<description>
+The HTTP verb “GET” is represented by “Read” within the CRUD acronym. The GET method means retrieve...
+</description>
+<link>http://codetoempower.com/post/120985829762</link>
+<guid>http://codetoempower.com/post/120985829762</guid>
+<pubDate>Sun, 07 Jun 2015 22:12:21 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>HTTP: GET & DELETE -  PUT & POST</title>
+<description>
+The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed,...
+</description>
+<link>http://codetoempower.com/post/120978748422</link>
+<guid>http://codetoempower.com/post/120978748422</guid>
+<pubDate>Sun, 07 Jun 2015 20:31:20 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>RegEx</title>
+<description>
+Using functions where we loop through the following strings to pull out the number values would be...
+</description>
+<link>http://codetoempower.com/post/120621734217</link>
+<guid>http://codetoempower.com/post/120621734217</guid>
+<pubDate>Wed, 03 Jun 2015 13:07:54 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Curl & AJAX</title>
+<description>
+Curl is a way to make a GET request from the command line. This is the same to an Ajax request from...
+</description>
+<link>http://codetoempower.com/post/120538380052</link>
+<guid>http://codetoempower.com/post/120538380052</guid>
+<pubDate>Tue, 02 Jun 2015 13:13:10 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Paper.js</title>
+<description>
+Our first project and implementing a library. Pretty darn cool! I have implemented a library in the...
+</description>
+<link>http://codetoempower.com/post/120543629282</link>
+<guid>http://codetoempower.com/post/120543629282</guid>
+<pubDate>Mon, 01 Jun 2015 14:33:57 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>The Internet</title>
+<link>http://codetoempower.com/post/119002171897</link>
+<guid>http://codetoempower.com/post/119002171897</guid>
+<pubDate>Fri, 15 May 2015 00:14:05 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Comparing within an Embedded Function</title>
+<description>
+What will be returned for the following function? (function(value) { return (function(copy) { ...
+</description>
+<link>http://codetoempower.com/post/118712225652</link>
+<guid>http://codetoempower.com/post/118712225652</guid>
+<pubDate>Mon, 11 May 2015 14:39:47 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Define to a 5-Year-Old</title>
+<description>
+Pretend you have a 5 year old brother. You love him and want him to be the best programmer in the...
+</description>
+<link>http://codetoempower.com/post/118706735977</link>
+<guid>http://codetoempower.com/post/118706735977</guid>
+<pubDate>Mon, 11 May 2015 13:12:04 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Higher Order Functions</title>
+<description>
+Functions that operate on other functions. This occurs as a function either:    1. Takes in a...
+</description>
+<link>http://codetoempower.com/post/118670290857</link>
+<guid>http://codetoempower.com/post/118670290857</guid>
+<pubDate>Mon, 11 May 2015 00:10:33 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>Is recursive humor recursive?</title>
+<link>http://codetoempower.com/post/118492898947</link>
+<guid>http://codetoempower.com/post/118492898947</guid>
+<pubDate>Fri, 08 May 2015 23:06:57 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+<item>
+<title>A Nedy CS Joke</title>
+<description>
+Get it? The definition of recursion, refers to itself. Hahaha. Thanks for sharing the joke...
+</description>
+<link>http://codetoempower.com/post/118458674987</link>
+<guid>http://codetoempower.com/post/118458674987</guid>
+<pubDate>Fri, 08 May 2015 14:27:44 -0400</pubDate>
+<dc:creator>laurakirby26</dc:creator>
+</item>
+</channel>
+</rss>
