@@ -17,11 +17,12 @@ $(document).ready(function() {
   });
 
 
-
-
-  // //user AJAX to make this call
-  // //blog xml
-  // //var tyResult = Typhoeus.get('http://codetoempower.tumblr.com/rss');
+// $.get('http://codetoempower.tumblr.com/rss').then(function(data) {
+//   console.log(data);
+// });
+  //user AJAX to make this call
+  //blog xml
+  // var tyResult = Typhoeus.get('http://codetoempower.tumblr.com/rss');
 
   // //parse xml, so we can interact with it with jquery
   // var myXmlDoc = $.parseXML( tyResult );
@@ -37,7 +38,7 @@ $(document).ready(function() {
 
 
 
-  // //sample xml
+  //sample xml
   // var xml = "<rss version='2.0'><channel><title>Adventures of Learning to Code</title></channel></rss>";
   // console.log(xml);
   // //parse xml, so we can interact with it with jquery

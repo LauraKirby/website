@@ -13,8 +13,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.3/semantic.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.12.3/semantic.min.css"/>
 
+   <!-- fonts -->
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+
   <!-- stylesheets -->
-  <link href="./stylesheet.css" rel="stylesheet" type="text/css"/>
+  <link href="./stylesheets/main_stylesheet.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="./stylesheets/custom_prettify.css">
 
   <!-- carousel stylesheets -->
   <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
@@ -26,6 +32,9 @@
   <!-- blog rss feed -->
   <link rel="stylesheet" href="http://codetoempower.tumblr.com/rss" rel="alternate" type="application/rss+xml" title="Code to Empower">
   <link rel="stylesheet" href="./blog.xml">
+
+  <!-- import location -->
+  <link rel="import" href="/blogPosts/singleton.html">
 
 </head>
 <body>
@@ -51,142 +60,110 @@
 
 <div class="ui grid backgroundColor">
 <!-- row one - the columns add up to 16-->
-  <div class="six wide column"></div>
-  <div class="four wide column ">
+<div class="marginOneCol backgroundColor"></div>
 
-  </div>
-  <div class="six wide column"></div>
-
-<!-- row two - the columns add up to 16-->
   <div class="one wide column"></div>
-
-
-  <div class="six wide column">
-      <div class="ui internally grid">
+  <div class="fourteen wide column medTeal oneColMargin">    
         <div class="row">
-          <!-- <div class="sixteen wide column"> -->
-<!--             <h3>About Me</h3> -->
-          <!-- </div> -->
-        </div>
-        <div class="row">
-<!--           <div class="one wide column">
-          </div> -->
-          <div class="fourteen wide column">
-              <img class="ui medium image" src="./assets/about_me_long.png" alt="About Laura">
-          </div>
-<!--           <div class="one wide column">
-          </div> -->
-        </div>
-        <!-- this is to add bottom white line -->
-        <div class="row">
-          <!-- <div class="one wide column"> -->
-          <!-- </div> -->
-        </div>
-      </div>
-
-      <!-- <a href="https://github.com/LauraKirby"><div class="item"><img src="./assets/about_me_long.png" alt="About Laura"></div></a>  -->
-  </div>
-
-  <div class="eight wide column">
-   
-        <div class="ui internally grid">
-          <div class="row">
-            <div class="eight wide column">
-         <!--      <h3>Projects</h3> -->
+          <div class="blogMargin rounded">
+           <div class="blogBehindText">
+            <div class="ui internally grid">
+            <div class="six wide column">
+              <img class="ui medium image profilePic" src="./assets/lk_270.png" alt="About Laura">
             </div>
+            
+            <div class="ten wide column">
+              <div class="workSansFont blogText blogBehindText rounded aboutMeMargin">
+                <p>I am passionate about writing code, solving problems and self-improvement. In my spare time I enjoy learning mobile dev, volunteering for Women Who Code and staying phyically active.</p>
+                <p>Experience: Node, Express, Mongo, Mongoose, Ruby on Rails, Postgres, SQL, JQuery, and Angular.
+                </p>
+                <p>User authentication, data modeling, building and implementing APIs, web-scrapping.
+                </p>
+                </div>
+            </div>             
+          </div> <!-- end internal grid -->
           </div>
-          <div class="row">
-            <div class="one wide column">
-              <img>
-            </div>
-            <div class="fourteen wide column">
+          </div>
+        </div> <!-- end row -->
+          <!-- removed owl -->
+        <div class="row">
+          <div class="blogMargin rounded">
+          <div class="blogBehindText">
               <div id="owl-demo" class="owl-carousel owl-theme">
-                 
-                    <div class="item">
-                        <a href="https://topratedlk.herokuapp.com/" target="blank">
-                        <img class="ui large image" src="./assets/node.png" alt="Top Rated">
-                        </a>
-                    </div>
-                                 
-                    <div class="item">
-                        <a href="https://guarded-escarpment-8507.herokuapp.com/" target="blank">
-                        <img class="ui large image" src="./assets/rails.png" alt="Median">
-                        </a>
-                    </div>
-                
-              </div>
-            </div>
-            <div class="one wide column">
-              <img>
-            </div>
+                 <div class="item">
+                     <h4 class="projectsTitle" >Projects</h4>
+                     <img class="ui large image projectPic" src="./assets/topratedRec.png" alt="Top Rated">
+
+                       <div class="buttonSet">
+                       <div class="ui small basic buttons">
+                          <a class="ui button" href="https://topratedlk.herokuapp.com/" target="blank">
+                           Heroku
+                           </a>
+                           <a class="ui button" href="https://github.com/LauraKirby/topRated"target="blank">
+                           Github
+                           </a>
+                       </div>
+                       </div>
+
+                  </div>
+                              
+                 <div class="item">
+                   <h4 class="workSansFont" >Projects</h4>
+                     <a href="https://guarded-escarpment-8507.herokuapp.com/" target="blank">
+                     <img class="ui large image" src="./assets/rails.png" alt="Median">
+                     </a>
+                 </div>
+              </div> <!-- end owl carousel -->
           </div>
-          <!-- this is to add bottom white line -->
-          <div class="row">
-            <div class="one wide column">
-            </div>
           </div>
         </div>
 
-    <!-- add backgroud color to div without adding opacty to image -->
+    <div class="blogMargin rounded">
+        <div class="blogBehindText">
+          <div class="workSansFont blogText">
+          <h4 class="blogTitle">Ruby's Singleton Class</h4>
+          <p> Singleton classes, not to be confused with the singleton design pattern, refers to adding methods to only one instance of a class. </p><p>  Huh? </p><p>  Ruby allows you to explicitly specify a receiver when defining methods. Thus, you can add a method to one object instance of a class. The syntax is similar to what is used when creating class methods. However, we&rsquo;re adding a method to the object. </p><p>  Upon adding a method to an object Ruby inserts a new anonymous class into the inheritance hierarchy as a container to hold these new methods. A singleton class does not have a name, therefore it is anonymous. A new object cannot be instantiated from a singleton class. </p><p>  New instances of your original class, before you created the singleton class, will not have the anonymous singleton class, and thus will not have access to its methods. </p>
+            <pre class="prettyprint linenums"><code class="language-ruby">foobar = Array.new
 
+            def foobar.size
+              "Hello World!"
+            end
 
-  </div> <!-- end 8 column -->
+            foobar.size  # =&gt; "Hello World!"
+            foobar.class # =&gt; Array
+
+            bizbat = Array.new
+            bizbat.size  # =&gt; 0
+            </code></pre>
+
+            <p>
+            <strong>Ruby is cool!</strong>
+            </p>
+            <p>
+              <div>Sources:</div>
+                <a href="http://ola-bini.blogspot.com/2006/09/ruby-metaprogramming-techniques.html">Ruby Metaprogramming</a> <br>
+                <a href="http://www.devalot.com/articles/2008/09/ruby-singleton">Ruby Singleton</a>
+              </p>
+          </div>
+       </div>
+     </div>
+    </div> <!-- end ten wide column -->
+  
   <div class="one wide column"></div>
+</div> <!-- row two - the columns add up to 16 (2, 12, 2) -->
 
-<!-- row three - the columns add up to 16-->
-<!--   <div class="one wide column">one</div>
-  <div class="fourteen wide column">
-
-                  <div class="ui internally grid">
-                    <div class="row">
-                      <div class="eight wide column">
-                        <h3 class="someElement"></h3>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="one wide column">
-                      </div>
-                      <div class="fourteen wide column backRed">
-                        <h4>Adventures of Code</h4>
-                          <div class="containerOne">
-                           <img class="displayed" src="./assets/toprated.png" alt="Top Rated"> -->
-<!--                            <p id="someElement"></p>
-                           <p id="mySomeElement"></p>
-                           <p id="anotherElement"></p> -->
-                          <!-- </div> end containerOne -->
-                     <!--  </div>
-                      <div class="one wide column">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="one wide column">
-                      </div>
-                    </div>
-                  </div> -->
-    <!-- <div class="ui feed backRed">
-
-      <a type="application/rss+xml" href="http://codetoempower.tumblr.com/rss">blog</a> 
-          fourteen wide column
-    </div>
-
-    <div class="testTwo">
-    <p>hi</p>
-      
-    </div> -->
-<!--   </div>
-  <div class="one wide column">one</div> -->
-
+  
 
   <!-- row three - the columns add up to 16-->
         <div class="ui equal width center aligned padded grid">
 
-              <div class="column">
-                    <a href="https://github.com/LauraKirby"><i class="big github icon"></i></a>
-                    <a href="https://twitter.com/kirby_laura"><i class="big twitter icon"></i></a> 
-                    <a href="http://codetoempower.com/"><i class="big tumblr icon"></i></a>
-                    <a href="https://www.linkedin.com/in/laurakirby26"><i class="big linkedin icon"></i></a>
+              <div class="column socialLinks">
+                    <a href="https://github.com/LauraKirby" class="iconColor"><i class="huge github icon"></i></a>
+                    <a href="https://twitter.com/kirby_laura" class="iconColor"><i class="huge twitter icon"></i></a> 
+                    <a href="http://codetoempower.com/" class="iconColor"><i class="huge tumblr icon"></i></a>
+                    <a href="https://www.linkedin.com/in/laurakirby26" class="iconColor"><i class="huge linkedin icon"></i></a>
                     <br></br>
-                    <p>laurakirby26@gmail.com</p>
+                    <p class="contactMe">Contact me: laurakirby26@gmail.com</p>
               </div>
 
         </div>

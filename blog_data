@@ -1,0 +1,7 @@
+Questions: 
+
+make a Typhoeus request. add Typhoeus to project, cdn? Typheous is used with Rails.
+
+cannot make ajax request to xml, bc of same origin. to fix this, would need to create a backend.
+
+you can obtain the xml through jsonp. jsonp was the solution before cors came along. you will use a script tag, just like have we use cdn's in a script tag. 
