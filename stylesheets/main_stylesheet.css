@@ -216,8 +216,8 @@ body {
   border-radius: 2%
 }
 .projectPic{
-  max-width: 90%;
-  margin-left: 25%;
+  min-width: 45%;
+  margin-left: 15%;
   border-radius: 2%
 }
 .projectsTitle{
