@@ -20,8 +20,6 @@
 
   <!-- stylesheets -->
   <link href="./stylesheets/main_stylesheet.css" rel="stylesheet" type="text/css"/>
-  <link href="./stylesheets/blog_stylesheet.css" rel="stylesheet" type="text/css"/>
-  <link href="./stylesheets/sliding_header_stylesheet.css" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="./stylesheets/custom_prettify.css">
 
   <!-- carousel stylesheets -->
@@ -30,13 +28,6 @@
   <link rel="stylesheet" href="owl-carousel/owl.transitions.css">
 
   <link rel="shortcut icon" type="image/png" href="./assets/favicon.png"/>
-
-  <!-- blog rss feed -->
-  <!-- <link rel="stylesheet" href="http://codetoempower.tumblr.com/rss" rel="alternate" type="application/rss+xml" title="Code to Empower"> -->
-  <!-- <link rel="stylesheet" href="./blog.xml"> -->
-
-  <!-- import location -->
-  <!-- <link rel="import" href="/blogPosts/singleton.html"> -->
 
 </head>
 <body>
@@ -60,113 +51,94 @@
 
 <div id="page"> <!-- id page -->
 
-<div class="ui grid backgroundColor">
-<!-- row one - the columns add up to 16-->
-<div class="marginOneCol backgroundColor"></div>
 
-  <div class="one wide column"></div>
-  <div class="fourteen wide column medTeal oneColMargin">    
-        <div class="row">
-          <div class="blogMargin rounded">
-           <div class="blogBehindText">
-            <div class="ui internally grid">
-            <div class="six wide column">
-              <img class="ui medium image profilePic" src="./assets/lk_270.png" alt="About Laura">
-            </div>
-            
-            <div class="ten wide column">
-              <div class="workSansFont blogText blogBehindText rounded aboutMeMargin">
-                <p>I am passionate about writing code, solving problems and self-improvement. In my spare time I enjoy learning mobile dev, volunteering for Women Who Code and staying phyically active.</p>
-                <p>Experience: Node, Express, Mongo, Mongoose, Ruby on Rails, Postgres, SQL, JQuery, and Angular.
-                </p>
-                <p>User authentication, data modeling, building and implementing APIs, web-scrapping.
-                </p>
-                </div>
-            </div>             
-          </div> <!-- end internal grid -->
-          </div>
-          </div>
-        </div> <!-- end row -->
-          <!-- removed owl -->
-        <div class="row">
-          <div class="blogMargin rounded">
-              <h4 class="projectsTitle">Projects</h4>
-                  
-                  <!-- Start projectTopRated -->
+
+<div class="ui grid"></div>
+
+
+<div class="marginOneCol lightGray">
+ 
+
+              <div class="clearfix aboutMeMargin">
+                <img class="profilePic" src="./assets/lk_270.png" alt="About Laura">
+                  <span class="boxProfileText aboutMeText">
+                    <p>I am passionate about writing code, solving problems and self-improvement. In my spare time I enjoy learning mobile dev, volunteering for Women Who Code and staying phyically active.</p>
+                    <p>Experience: Node, Express, Mongo, Mongoose, Ruby on Rails, Postgres, SQL, JQuery, and Angular.
+                    </p>
+                    <p>User authentication, data modeling, building and implementing APIs, web-scrapping.
+                    </p>
+                  </span>
+                </div> 
+</div> <!-- end marginOneCol backRed -->
+
+
+<div class="marginOneCol softGray">
+        
+              <div class="clearfix projectMargin">
+              <!-- Start projectTopRated -->
+                 <div class="projectTopRated">
+                      <a href="https://topratedlk.herokuapp.com/" target="blank">
+                        <img class="projectPic" src="./assets/topRatedRec.png" alt="Top Rated">
+                      </a>
+                      <div class="ui small buttons">
+                        <a class="ui button" href="https://topratedlk.herokuapp.com/" target="blank">Heroku
+                         </a>
+                         <a class="ui button" href="https://github.com/LauraKirby/topRated"target="blank">Github
+                         </a>
+                      </div>
+                  </div> <!-- end projectTopRated -->              
+
+
+                  <!-- Start projectMedian -->
+                  <div class="boxProjectPic projectMedian">
+                      <a href="https://median.herokuapp.com/" target="blank">
+                       <img class="projectPic" src="./assets/median.png" alt="Median">
+                      </a>
+                     <div class="buttonSet">
+                       <div class="ui small buttons">
+                         <a class="ui button" href="https://median.herokuapp.com/" target="blank">Heroku
+                          </a>
+                          <a class="ui button" href="https://github.com/LauraKirby/Median"target="blank">Github
+                          </a>
+                      </div>
+                     </div>
+                  </div> <!-- end projectMedian -->
+
+                  <!-- Start healthMe -->
                      <div class="projectTopRated">
-                       <img class="ui large image projectPic" src="./assets/topRatedRec.png" alt="Top Rated">
-
-                        <div class="buttonSet">
-                          <div class="ui small basic buttons">
+                          <a href="https://topratedlk.herokuapp.com/" target="blank">
+                            <img class="projectPic" src="./assets/Healthy_Me.png" alt="Top Rated">
+                          </a>
+                          <div class="ui small buttons">
                             <a class="ui button" href="https://topratedlk.herokuapp.com/" target="blank">Heroku
                              </a>
                              <a class="ui button" href="https://github.com/LauraKirby/topRated"target="blank">Github
                              </a>
                           </div>
-                        </div>
-                      </div> <!-- end projectTopRated -->
+                      </div> <!-- end healthMe -->              
 
-                    <!-- Start projectMedian -->
-                    <div class="projectMedian">
-                     <a href="https://guarded-escarpment-8507.herokuapp.com/" target="blank">
-                       <img class="ui large image projectPic" src="./assets/median.png" alt="Median">
-                     </a>
-                     <div class="buttonSet">
-                       <div class="ui small basic buttons">
-                         <a class="ui button" href="https://median.herokuapp.com/" target="blank">
-                          Heroku
+
+                      <!-- Start healthMeMobile -->
+                      <div class="boxProjectPic projectMedian">
+                          <a href="https://median.herokuapp.com/" target="blank">
+                           <img class="projectPic" src="./assets/Healthy_Me_Mobile.png" alt="Median">
                           </a>
-                          <a class="ui button" href="https://github.com/LauraKirby/Median"target="blank">
-                          Github
-                          </a>
-                       </div>
-                     </div>
-                    </div> <!-- end projectMedian -->
-          </div>
-        </div> <!-- end row -->
+                         <div class="buttonSet">
+                           <div class="ui small buttons">
+                             <a class="ui button" href="https://median.herokuapp.com/" target="blank">Heroku
+                              </a>
+                              <a class="ui button" href="https://github.com/LauraKirby/Median"target="blank">Github
+                              </a>
+                          </div>
+                         </div>
+                      </div> <!-- end healthMeMobile -->
+              
+              </div> <!-- end Projects -->
+</div>
 
-    <div class="blogMargin rounded">
-        <div class="blogBehindText">
-          <div class="workSansFont blogText">
-          <h4 class="blogTitle">Ruby's Singleton Class</h4>
-          <p> Singleton classes, not to be confused with the singleton design pattern, refers to adding methods to only one instance of a class. </p><p>  Huh? </p><p>  Ruby allows you to explicitly specify a receiver when defining methods. Thus, you can add a method to one object instance of a class. The syntax is similar to what is used when creating class methods. However, we&rsquo;re adding a method to the object. </p><p>  Upon adding a method to an object Ruby inserts a new anonymous class into the inheritance hierarchy as a container to hold these new methods. A singleton class does not have a name, therefore it is anonymous. A new object cannot be instantiated from a singleton class. </p><p>  New instances of your original class, before you created the singleton class, will not have the anonymous singleton class, and thus will not have access to its methods. </p>
-            <pre class="prettyprint linenums"><code class="language-ruby">foobar = Array.new
+<div class="marginOneCol lightGray">
 
-            def foobar.size
-              "Hello World!"
-            end
-
-            foobar.size  # =&gt; "Hello World!"
-            foobar.class # =&gt; Array
-
-            bizbat = Array.new
-            bizbat.size  # =&gt; 0
-            </code></pre>
-
-            <p>
-            <strong>Ruby is cool!</strong>
-            </p>
-            <p>
-              <div>Sources:</div>
-                <a href="http://ola-bini.blogspot.com/2006/09/ruby-metaprogramming-techniques.html" class="iconColor" target="blank">- Ruby Metaprogramming</a> <br>
-                <a href="http://www.devalot.com/articles/2008/09/ruby-singleton" class="iconColor" target="blank">- Ruby Singleton</a>
-              </p>
-              <p></p>
-              <p>Read more on my blog, <a class="iconColor" href="http://codetoempower.com/" target="blank">"Her Adventures of Learning to Code"</a></p>
-          </div>
-       </div>
-     </div>
-    </div> <!-- end ten wide column -->
-  
-  <div class="one wide column"></div>
-</div> <!-- row two - the columns add up to 16 (2, 12, 2) -->
-
-  
-
-  <!-- row three - the columns add up to 16-->
-        <div class="ui equal width center aligned padded grid">
-
-              <div class="column socialLinks">
+<div class="clearfix  socialLinks">
                     <a href="https://github.com/LauraKirby" class="iconColor"><i class="huge github icon"></i></a>
                     <a href="https://twitter.com/kirby_laura" class="iconColor"><i class="huge twitter icon"></i></a> 
                     <a href="http://codetoempower.com/" class="iconColor"><i class="huge tumblr icon"></i></a>
@@ -174,29 +146,9 @@
                     <br></br>
                     <p class="contactMe">Contact me: laurakirby26@gmail.com</p>
               </div>
-
-        </div>
-  
 </div>
 
-
-  
-
-<!--       <div class="column marginTop">
-
-      </div> -->
-
-
-
-
-
-    </div> <!-- end two ui grid -->
-
-
-  </div> <!-- end grid -->
-
-
-</div> <!-- end id page -->
+</div> <!-- end page id page -->
 
 
 

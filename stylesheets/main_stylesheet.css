@@ -11,6 +11,12 @@ body {
   font-family: "Varela Round";
   background: #404040;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*-----------------  GENERAL FONTS  ----------------- */
 
 .pacificoFont {
@@ -31,6 +37,31 @@ body {
   background-color: #126071;
 }
 
+.medTeal {
+  background-color: #779FA4;
+}
+
+.lightTeal {
+  background-color: #BBCFCE;
+}
+
+.backRed{
+  background-color: #F24C27;
+}
+.softGray {
+  background-color: #F2F2F2;
+}
+.lightGray {
+  background-color: #EBEBEB;
+}
+.medGray {
+  background-color: #ABABAB;
+}
+
+.backWhite{
+  background-color: white;
+}
+
 .marginTop {
   margin-top: 5%;
 }
@@ -39,26 +70,17 @@ body {
   margin: auto;
 }
 
-.backRed{
-  background-color: #F24C27;
-
-}
-
-.backWhite{
-  background-color: white;
-}
-
-.medTeal {
-  background-color: #779FA4;
-}
 .rounded {
   border-radius: 1%;
   padding: 4% 4%;
 }
 
-
-
 /*-----------------  GENERAL SPACING  ----------------- */
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
 .max {
   margin-top: 2%;
   max-height: 75%;
@@ -79,9 +101,7 @@ body {
 }
 
 .oneColMargin {
-  border-radius: 1%;
   padding: 4% 4%;
-  margin-bottom: 4%
 }
 .wordWrap {
   word-wrap: break-word;
@@ -107,7 +127,8 @@ h3{
 }   
 
 .marginOneCol {
-  padding-top: 5%
+  padding-top: 5%;
+  margin-left: 0px;
 }
 
 .addPaddingTop {
@@ -284,43 +305,84 @@ h3{
 }
 
 /*-----------------  ABOUT ME  -----------------*/
+
 .profilePic {
-  max-width: 75%;
-  margin-left: 5%;
-  border-radius: 2%
+  width: 20%;
+  border-radius: 2%;
+  float: left;
+  display: inline-block;
+  margin: 1%;
 }
 
 .aboutMeMargin{
   margin-top: 5%;
   margin-right: 5%;
+  min-width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+}
+
+.aboutMeText{
+  font-size: 120%;
+}
+
+/*in line block*/
+.boxProfileText {
+  display: inline-block;
+  width: 60%;
+  margin: 1%;
+  margin-left: 5%;
 }
 
 /*-----------------  PROJECTS ----------------- */
+.projectMargin {
+  margin-left: 7%;
+  margin-top: 5%;
+  margin-right: 7%;
+  min-width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 6%;
+}
+
 .projectsTitle{
   font-size: 200%;
   font-family: 'Work Sans', sans-serif;
 }
 
 .projectTopRated {
-
+  width: 40%;
+  margin: 1%;
+  float: left;
+  padding-bottom: 4%;
 }
 
 .projectMedian{
-
+  width: 40%;
+  margin: 1%;
+  padding-bottom: 4%;
 }
 
 .buttonSet {
   max-width: 75%;
-  margin-left: 20%;
-  margin-top: 2%;
-  vertical-align: center;
-  padding-left: 20%
 }
+
 .projectPic{
-  min-width: 45%;
-  margin-left: 15%;
-  border-radius: 2%
+  border-radius: 2%;
+  width: 100%;
+  margin: 0 auto;
 }
+
+/*in line block*/
+.boxProjectPic {
+  border-radius: 2%;
+  display: inline-block;
+  width: 40%;
+  margin: 1%;
+  margin-left: 5%;
+}
+
 /*-----------------  BLOG ----------------- */
 .blogMainTitle{
   font-family: 'Work Sans', sans-serif;
@@ -364,9 +426,15 @@ a.iconColor:hover {
 }
 
 .socialLinks {
-  margin-top: 2%;
+  padding-top: 2%;
+  margin: 0 auto;
 }
 
 .centerIcons {
   margin: 0;
+}
+
+/*-----------------  TESTING ----------------- */
+.one.wide.column.backRed{
+  min-height: 20px;
 }
