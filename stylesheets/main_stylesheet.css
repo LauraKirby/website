@@ -1,30 +1,152 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
-.max {
-	margin-top: 2%;
-	max-height: 75%;
-	max-width: 75%;
-}
-
-/* line 26, ../sass/screen.scss */
-
-.fontHr { 
-	font-family: Varela Round; 
-}
-
+/*-----------------  GENERAL ----------------- */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 31, ../sass/screen.scss */
 body {
   font-family: "Varela Round";
   background: #404040;
 }
 
-/* line 35, ../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*-----------------  GENERAL FONTS  ----------------- */
+
+.pacificoFont {
+  font-family: 'Pacifico', cursive;
+  text-align: center
+}
+.workSansFont {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  margin-left: 2%
+}
+.addPaddingTop {
+  padding-top: 20%;
+}
+
+.navText{
+  font-size: 130%;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 1%;
+
+}
+/*-----------------  GENERAL COLORS  ----------------- */
+.backgroundColor {
+  background-color: #126071;
+}
+
+.medTeal {
+  background-color: #779FA4;
+}
+
+.lightTeal {
+  background-color: #BBCFCE;
+}
+
+.backRed{
+  background-color: #F24C27;
+}
+.softGray {
+  background-color: #F2F2F2;
+}
+.lightGray {
+  background-color: #EBEBEB;
+}
+.medGray {
+  background-color: #ABABAB;
+}
+
+.backWhite{
+  background-color: white;
+}
+
+.marginTop {
+  margin-top: 5%;
+}
+
+.paddingLeft {
+  margin: auto;
+}
+
+.rounded {
+  border-radius: 1%;
+  padding: 4% 4%;
+}
+
+/*-----------------  GENERAL SPACING  ----------------- */
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.max {
+  margin-top: 2%;
+  max-height: 75%;
+  max-width: 75%;
+}
+
+.containerOne {
+  position: relative
+}
+.containerTwo {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.oneColMargin {
+  padding: 4% 4%;
+}
+.wordWrap {
+  word-wrap: break-word;
+}
+.alignRight {
+  float: right;
+}
+.backGrey {
+  background-color: #404040;
+}
+.darkTeal {
+  background-color: #126071;
+    padding-bottom: 2%;
+}
+
+.floatL {
+  float: left;
+}
+
+h3{
+  font-size: 200%;
+  color: white;
+}   
+
+.marginOneCol {
+  padding-top: 5%;
+  margin-left: 0px;
+}
+
+.addPaddingTop {
+  padding-top: 20%;
+}
+
+/*-----------------  SLIDING HEADER ----------------- */
+.fontHr { 
+	font-family: Varela Round; 
+}
+
+
 #header {
   background: no-repeat center;
   background-size: cover;
@@ -181,133 +303,94 @@ body {
   vertical-align: 50%;
 }
 
-
-.addPaddingTop {
-	padding-top: 20%;
-}
-
 .centerish {
-	margin-right: 45%;
-	margin-left: 47%;
-	margin-bottom: 0%;
-	margin-top: 0%;
+  margin-right: 45%;
+  margin-left: 47%;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
-.triangle {
-	width: 0;
-	height: 0;
-	border-left: 14px solid transparent;
-	border-right: 14px solid transparent;
-	border-top: 17px solid #404040;
-	vertical-align: 50%;
-}
-
-.backgroundColor {
-	background-color: #126071;
-}
-
-.marginTop {
-	margin-top: 5%;
-}
+/*-----------------  ABOUT ME  -----------------*/
 
 .profilePic {
-  max-width: 75%;
+  width: 20%;
+  border-radius: 2%;
+  float: left;
+  display: inline-block;
+  margin: 1%;
+}
+
+.aboutMeMargin{
+  margin-top: 4%;
+  margin-right: 5%;
+  min-width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 5%;
+}
+
+.aboutMeText{
+  font-size: 110%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/*in line block*/
+.boxProfileText {
+  display: inline-block;
+  width: 60%;
+  margin: 1%;
   margin-left: 5%;
-  border-radius: 2%
 }
-.projectPic{
-  min-width: 45%;
-  margin-left: 15%;
-  border-radius: 2%
+
+/*-----------------  PROJECTS ----------------- */
+.projectMargin {
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-right: 5%;
+  min-width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 6%;
 }
+
 .projectsTitle{
   font-size: 200%;
   font-family: 'Work Sans', sans-serif;
 }
 
+.projectTopRated {
+  width: 40%;
+  margin: 1%;
+  float: left;
+  padding-bottom: 4%;
+}
+
+.projectMedian{
+  width: 40%;
+  margin: 1%;
+  padding-bottom: 4%;
+}
+
 .buttonSet {
   max-width: 75%;
-  margin-left: 20%;
-  margin-top: 2%;
-  vertical-align: center;
-  padding-left: 20%
 }
 
-.paddingLeft {
-  margin: auto;
+.projectPic{
+  border-radius: 2%;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.backRed{
-  background-color: #F24C27;
+/*in line block*/
+.boxProjectPic {
+  border-radius: 2%;
+  display: inline-block;
+  width: 40%;
+  margin: 1%;
+  margin-left: 5%;
+}
 
-}
-.backWhite{
-  background-color: white;
-}
-
-.centerIcons {
-  margin: 0;
-}
-.testTest{
-
-}
-.floatL {
-  float: left;
-}
-h3{
-  font-size: 200%;
-  color: white;
-}   
-
-.containerOne {
-  position: relative
-}
-.containerTwo {
-  margin: 0;
-  background: yellow;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-.medTeal {
-  background-color: #779FA4;
-}
-.rounded {
-  border-radius: 1%;
-  padding: 4% 4%;
-}
-.oneColMargin {
-  border-radius: 1%;
-  padding: 4% 4%;
-  margin-bottom: 4%
-}
-.wordWrap {
-  word-wrap: break-word;
-}
-.alignRight {
-  float: right;
-}
-.backGrey {
-  background-color: #404040;
-}
-.darkTeal {
-  background-color: #126071;
-    padding-bottom: 2%;
-}
-.socialLinks {
-  margin-top: 2%;
-}
-.pacificoFont {
-  font-family: 'Pacifico', cursive;
-  text-align: center
-}
-.workSansFont {
-  font-family: 'Work Sans', sans-serif;
-  text-align: left;
-  margin-left: 2%
-}
+/*-----------------  BLOG ----------------- */
 .blogMainTitle{
   font-family: 'Work Sans', sans-serif;
   font-size: 200%;
@@ -327,46 +410,42 @@ h3{
   margin-left: 1%;
   margin-right: 1%;
 }
+
 .blogBehindText {
   background-color: #BBCFCE;
   border-radius: 5px;
   padding: 4% 4%;
 }
-.aboutMeMargin{
-  margin-top: 5%;
-  margin-right: 5%;
-}
-.marginOneCol {
-  padding-top: 5%
-}
+
+/*-----------------  FOOTER ----------------- */
 .contactMe{
   color: #126071;
   font-size: 120%;
   font-family: 'Work Sans', sans-serif;
+  text-align: center;
 }
 
 a.iconColor {
   color: #126071;
 }
+
 a.iconColor:hover {
   color: #779FA4;
 }
 
-.addPaddingTop {
-  padding-top: 20%;
+.socialLinks {
+  margin-top: 4%;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
-.centerish {
-  margin-right: 45%;
-  margin-left: 47%;
-  margin-bottom: 0%;
-  margin-top: 0%;
+.centerIcons {
+  margin: 0;
 }
 
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 14px solid transparent;
-  border-right: 14px solid transparent;
-  vertical-align: 50%;
+/*-----------------  TESTING ----------------- */
+.one.wide.column.backRed{
+  min-height: 20px;
 }
