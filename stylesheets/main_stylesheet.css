@@ -32,6 +32,12 @@ body {
   padding-top: 20%;
 }
 
+.navText{
+  font-size: 130%;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 1%;
+
+}
 /*-----------------  GENERAL COLORS  ----------------- */
 .backgroundColor {
   background-color: #126071;
@@ -315,7 +321,7 @@ h3{
 }
 
 .aboutMeMargin{
-  margin-top: 5%;
+  margin-top: 4%;
   margin-right: 5%;
   min-width: 100%;
   padding-left: 4%;
@@ -324,7 +330,8 @@ h3{
 }
 
 .aboutMeText{
-  font-size: 120%;
+  font-size: 110%;
+  font-family: 'Work Sans', sans-serif;
 }
 
 /*in line block*/
@@ -337,9 +344,9 @@ h3{
 
 /*-----------------  PROJECTS ----------------- */
 .projectMargin {
-  margin-left: 7%;
-  margin-top: 5%;
-  margin-right: 7%;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-right: 5%;
   min-width: 100%;
   padding-left: 4%;
   padding-right: 4%;
@@ -415,6 +422,7 @@ h3{
   color: #126071;
   font-size: 120%;
   font-family: 'Work Sans', sans-serif;
+  text-align: center;
 }
 
 a.iconColor {
@@ -426,8 +434,11 @@ a.iconColor:hover {
 }
 
 .socialLinks {
+  margin-top: 4%;
   padding-top: 2%;
-  margin: 0 auto;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
 .centerIcons {
