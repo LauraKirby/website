@@ -1,30 +1,125 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
-.max {
-	margin-top: 2%;
-	max-height: 75%;
-	max-width: 75%;
-}
-
-/* line 26, ../sass/screen.scss */
-
-.fontHr { 
-	font-family: Varela Round; 
-}
-
+/*-----------------  GENERAL ----------------- */
 html, body {
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* line 31, ../sass/screen.scss */
 body {
   font-family: "Varela Round";
   background: #404040;
 }
+/*-----------------  GENERAL FONTS  ----------------- */
 
-/* line 35, ../sass/screen.scss */
+.pacificoFont {
+  font-family: 'Pacifico', cursive;
+  text-align: center
+}
+.workSansFont {
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  margin-left: 2%
+}
+.addPaddingTop {
+  padding-top: 20%;
+}
+
+/*-----------------  GENERAL COLORS  ----------------- */
+.backgroundColor {
+  background-color: #126071;
+}
+
+.marginTop {
+  margin-top: 5%;
+}
+
+.paddingLeft {
+  margin: auto;
+}
+
+.backRed{
+  background-color: #F24C27;
+
+}
+
+.backWhite{
+  background-color: white;
+}
+
+.medTeal {
+  background-color: #779FA4;
+}
+.rounded {
+  border-radius: 1%;
+  padding: 4% 4%;
+}
+
+
+
+/*-----------------  GENERAL SPACING  ----------------- */
+.max {
+  margin-top: 2%;
+  max-height: 75%;
+  max-width: 75%;
+}
+
+.containerOne {
+  position: relative
+}
+.containerTwo {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.oneColMargin {
+  border-radius: 1%;
+  padding: 4% 4%;
+  margin-bottom: 4%
+}
+.wordWrap {
+  word-wrap: break-word;
+}
+.alignRight {
+  float: right;
+}
+.backGrey {
+  background-color: #404040;
+}
+.darkTeal {
+  background-color: #126071;
+    padding-bottom: 2%;
+}
+
+.floatL {
+  float: left;
+}
+
+h3{
+  font-size: 200%;
+  color: white;
+}   
+
+.marginOneCol {
+  padding-top: 5%
+}
+
+.addPaddingTop {
+  padding-top: 20%;
+}
+
+/*-----------------  SLIDING HEADER ----------------- */
+.fontHr { 
+	font-family: Varela Round; 
+}
+
+
 #header {
   background: no-repeat center;
   background-size: cover;
@@ -181,48 +276,37 @@ body {
   vertical-align: 50%;
 }
 
-
-.addPaddingTop {
-	padding-top: 20%;
-}
-
 .centerish {
-	margin-right: 45%;
-	margin-left: 47%;
-	margin-bottom: 0%;
-	margin-top: 0%;
+  margin-right: 45%;
+  margin-left: 47%;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
-.triangle {
-	width: 0;
-	height: 0;
-	border-left: 14px solid transparent;
-	border-right: 14px solid transparent;
-	border-top: 17px solid #404040;
-	vertical-align: 50%;
-}
-
-.backgroundColor {
-	background-color: #126071;
-}
-
-.marginTop {
-	margin-top: 5%;
-}
-
+/*-----------------  ABOUT ME  -----------------*/
 .profilePic {
   max-width: 75%;
   margin-left: 5%;
   border-radius: 2%
 }
-.projectPic{
-  min-width: 45%;
-  margin-left: 15%;
-  border-radius: 2%
+
+.aboutMeMargin{
+  margin-top: 5%;
+  margin-right: 5%;
 }
+
+/*-----------------  PROJECTS ----------------- */
 .projectsTitle{
   font-size: 200%;
   font-family: 'Work Sans', sans-serif;
+}
+
+.projectTopRated {
+
+}
+
+.projectMedian{
+
 }
 
 .buttonSet {
@@ -232,82 +316,12 @@ body {
   vertical-align: center;
   padding-left: 20%
 }
-
-.paddingLeft {
-  margin: auto;
+.projectPic{
+  min-width: 45%;
+  margin-left: 15%;
+  border-radius: 2%
 }
-
-.backRed{
-  background-color: #F24C27;
-
-}
-.backWhite{
-  background-color: white;
-}
-
-.centerIcons {
-  margin: 0;
-}
-.testTest{
-
-}
-.floatL {
-  float: left;
-}
-h3{
-  font-size: 200%;
-  color: white;
-}   
-
-.containerOne {
-  position: relative
-}
-.containerTwo {
-  margin: 0;
-  background: yellow;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-.medTeal {
-  background-color: #779FA4;
-}
-.rounded {
-  border-radius: 1%;
-  padding: 4% 4%;
-}
-.oneColMargin {
-  border-radius: 1%;
-  padding: 4% 4%;
-  margin-bottom: 4%
-}
-.wordWrap {
-  word-wrap: break-word;
-}
-.alignRight {
-  float: right;
-}
-.backGrey {
-  background-color: #404040;
-}
-.darkTeal {
-  background-color: #126071;
-    padding-bottom: 2%;
-}
-.socialLinks {
-  margin-top: 2%;
-}
-.pacificoFont {
-  font-family: 'Pacifico', cursive;
-  text-align: center
-}
-.workSansFont {
-  font-family: 'Work Sans', sans-serif;
-  text-align: left;
-  margin-left: 2%
-}
+/*-----------------  BLOG ----------------- */
 .blogMainTitle{
   font-family: 'Work Sans', sans-serif;
   font-size: 200%;
@@ -327,18 +341,14 @@ h3{
   margin-left: 1%;
   margin-right: 1%;
 }
+
 .blogBehindText {
   background-color: #BBCFCE;
   border-radius: 5px;
   padding: 4% 4%;
 }
-.aboutMeMargin{
-  margin-top: 5%;
-  margin-right: 5%;
-}
-.marginOneCol {
-  padding-top: 5%
-}
+
+/*-----------------  FOOTER ----------------- */
 .contactMe{
   color: #126071;
   font-size: 120%;
@@ -348,25 +358,15 @@ h3{
 a.iconColor {
   color: #126071;
 }
+
 a.iconColor:hover {
   color: #779FA4;
 }
 
-.addPaddingTop {
-  padding-top: 20%;
+.socialLinks {
+  margin-top: 2%;
 }
 
-.centerish {
-  margin-right: 45%;
-  margin-left: 47%;
-  margin-bottom: 0%;
-  margin-top: 0%;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-left: 14px solid transparent;
-  border-right: 14px solid transparent;
-  vertical-align: 50%;
+.centerIcons {
+  margin: 0;
 }
