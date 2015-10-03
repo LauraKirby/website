@@ -54,11 +54,11 @@
 <div class="ui grid"></div>
 
 
-<div class="marginOneCol lightGray">
+<div class="marginOneCol  softGray">
   <p class="navText">About</p>
 
               <div class="clearfix aboutMeMargin">
-                <img class="profilePic" src="./assets/lk_270.png" alt="About Laura">
+                <img class="ui small circular image profilePic" src="./assets/lk_270.png" alt="About Laura">
                   <span class="boxProfileText aboutMeText">
                     <p>I am passionate about writing code, solving problems and self-improvement. In my spare time I enjoy learning mobile dev, volunteering for Women Who Code and staying phyically active.</p>
                     <p>Experience: Node, Express, Mongo, Mongoose, Ruby on Rails, Postgres, SQL, JQuery, and Angular.
@@ -70,7 +70,7 @@
 </div> <!-- end marginOneCol backRed -->
 
 
-<div class="marginOneCol softGray">
+<div class="marginOneCol white">
         <p class="navText">Projects</p>
 
               <div class="clearfix projectMargin">
@@ -135,7 +135,56 @@
               </div> <!-- end Projects -->
 </div>
 
-<div class="marginOneCol lightGray">
+<div class="marginOneCol pink">
+  <p class="navText">Projects</p>
+
+  <!-- row one - the columns add up to 16-->
+      <div class="blogMargin rounded">
+
+          
+            <div class="textGray">
+            <h4 class="blogMainTitle textGray">Ruby's Singleton Class</h4>
+            <div class="blogText textGray">
+              <p > Singleton classes, not to be confused with the singleton design pattern, refers to adding methods to only one instance of a class. </p><p>  Huh? </p><p>  Ruby allows you to explicitly specify a receiver when defining methods. Thus, you can add a method to one object instance of a class. The syntax is similar to what is used when creating class methods. However, we&rsquo;re adding a method to the object. </p><p>  Upon adding a method to an object Ruby inserts a new anonymous class into the inheritance hierarchy as a container to hold these new methods. A singleton class does not have a name, therefore it is anonymous. A new object cannot be instantiated from a singleton class. </p><p>  New instances of your original class, before you created the singleton class, will not have the anonymous singleton class, and thus will not have access to its methods. </p>
+            
+              <div class="blogBehindText">
+                <pre class="prettyprint linenums"><code class="language-ruby">foobar = Array.new
+
+def foobar.size
+  "Hello World!"
+end
+
+foobar.size  # =&gt; "Hello World!"
+foobar.class # =&gt; Array
+
+bizbat = Array.new
+bizbat.size  # =&gt; 0
+                </code></pre>
+              </div>
+            
+              <p>
+              <strong>Ruby is cool!</strong>
+              </p>
+              <p>
+                <div>Sources:</div>
+                  <a class="textGray" href="http://ola-bini.blogspot.com/2006/09/ruby-metaprogramming-techniques.html" class="iconColor" target="blank">- Ruby Metaprogramming</a> <br>
+                  <a class="textGray" href="http://www.devalot.com/articles/2008/09/ruby-singleton" class="iconColor" target="blank">- Ruby Singleton</a>
+                </p>
+                <p></p>
+                    Like what you see?  <button class="circular ui basic button">
+                  <a class="linkBlue" href="http://codetoempower.com/" target="blank">FOLLOW ME ON TUMBLR</a>
+                </button>
+              </div> <!-- end blogPost div/class  -->
+            </div>
+         </div>
+       </div>
+
+    
+
+
+
+
+<div class="marginOneCol white">
   <p class="navText">Contact</p>
 <div class="clearfix  socialLinks">
                     <a href="https://github.com/LauraKirby" class="iconColor"><i class="huge github icon"></i></a>

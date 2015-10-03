@@ -39,33 +39,42 @@ body {
 
 }
 /*-----------------  GENERAL COLORS  ----------------- */
-.backgroundColor {
-  background-color: #126071;
+.white {
+  background-color: #FFFFFF;
 }
 
-.medTeal {
-  background-color: #779FA4;
+.pink {
+  background-color: #FDE8E9;
 }
 
-.lightTeal {
-  background-color: #BBCFCE;
-}
-
-.backRed{
-  background-color: #F24C27;
-}
 .softGray {
   background-color: #F2F2F2;
 }
-.lightGray {
-  background-color: #EBEBEB;
+
+.medBeige {
+  background-color: #DEDBD2;
 }
+
 .medGray {
   background-color: #ABABAB;
 }
 
-.backWhite{
-  background-color: white;
+.textGray {
+  color: #576066;
+  font-style: 'Helvetica Neue'; 
+}
+a.textGray{
+  color: #576066;
+  font-style: 'Helvetica Neue'; 
+  opacity: .5;
+}
+a.textGray:hover{
+  color: #FFFFFF;
+  font-style: 'Helvetica Neue'; 
+}
+a.linkBlue{
+  color: #92DCE5;
+
 }
 
 .marginTop {
@@ -192,7 +201,7 @@ h3{
 /* line 83, ../sass/screen.scss */
 #pageHr, #pageHrBorder {
   position: absolute;
-  border-bottom: 31px solid #037E8C;
+  border-bottom: 31px solid #FFFFFF;
   margin-top: -45px;
   height: 25px;
   display: block;
@@ -205,7 +214,7 @@ h3{
 #pageHr .a:before,
 #pageHr .a:after, #pageHrBorder .a:before,
 #pageHrBorder .a:after {
-  border-color: #037E8C transparent;
+  border-color: #FFFFFF transparent;
   border-style: solid;
   position: absolute;
   display: block;
@@ -227,7 +236,7 @@ h3{
 #pageHr .s:before,
 #pageHr .s:after, #pageHrBorder .s:before,
 #pageHrBorder .s:after {
-  background: #037E8C;
+  background: #FFFFFF;
   position: absolute;
   display: block;
   content: "";
@@ -249,13 +258,13 @@ h3{
 
 /* line 133, ../sass/screen.scss */
 #pageHrBorder {
-  border-bottom-color: #037E8C;
+  border-bottom-color: #FFFFFF;
   margin-top: -56px;
 }
 /* line 137, ../sass/screen.scss */
 #pageHrBorder .a:before,
 #pageHrBorder .a:after {
-  border-color: #037E8C transparent;
+  border-color: #FFFFFF transparent;
 }
 /* line 141, ../sass/screen.scss */
 #pageHrBorder .a:before {
@@ -268,7 +277,7 @@ h3{
 /* line 148, ../sass/screen.scss */
 #pageHrBorder .s:before,
 #pageHrBorder .s:after {
-  background: #037E8C;
+  background: #FFFFFF;
 }
 /* line 152, ../sass/screen.scss */
 #pageHrBorder .s:before {
@@ -281,7 +290,7 @@ h3{
 
 /* line 160, ../sass/screen.scss */
 #page {
-  background: #126071;
+  background: #FFFFFF;
   position: relative;
   height: 123.45%;
   top: 100%;
@@ -391,42 +400,50 @@ h3{
 }
 
 /*-----------------  BLOG ----------------- */
-.blogMainTitle{
-  font-family: 'Work Sans', sans-serif;
-  font-size: 200%;
-  color: #404040;
-  text-align: center;
+a.linkBlue{
+  color: #92DCE5;
+
 }
+a.linkBlue{
+  color: #92DCE5;
+
+}
+
+.blogMainTitle{
+  font-size: 200%;
+}
+
 .blogText {
   font-size: 120%;
-  color: #404040;
+
 }
+
 .blogTitle {
   font-size: 170%;
   font-family: 'Work Sans', sans-serif;
   color: #404040;
 }
 .blogMargin {
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .blogBehindText {
-  background-color: #BBCFCE;
+  background-color: #FEF3F4;
   border-radius: 5px;
   padding: 4% 4%;
 }
 
 /*-----------------  FOOTER ----------------- */
 .contactMe{
-  color: #126071;
+  color: #92DCE5;
   font-size: 120%;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
 
 a.iconColor {
-  color: #126071;
+  color: #92DCE5;
 }
 
 a.iconColor:hover {

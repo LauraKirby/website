@@ -77,7 +77,7 @@ body {
 /* line 83, ../sass/screen.scss */
 #pageHr, #pageHrBorder {
   position: absolute;
-  border-bottom: 31px solid #037E8C;
+  border-bottom: 31px solid #FFFFFF;
   margin-top: -45px;
   height: 25px;
   display: block;
@@ -90,7 +90,7 @@ body {
 #pageHr .a:before,
 #pageHr .a:after, #pageHrBorder .a:before,
 #pageHrBorder .a:after {
-  border-color: #037E8C transparent;
+  border-color: #FFFFFF transparent;
   border-style: solid;
   position: absolute;
   display: block;
@@ -112,7 +112,7 @@ body {
 #pageHr .s:before,
 #pageHr .s:after, #pageHrBorder .s:before,
 #pageHrBorder .s:after {
-  background: #037E8C;
+  background: #FFFFFF;
   position: absolute;
   display: block;
   content: "";
@@ -134,13 +134,13 @@ body {
 
 /* line 133, ../sass/screen.scss */
 #pageHrBorder {
-  border-bottom-color: #037E8C;
+  border-bottom-color: #FFFFFF;
   margin-top: -56px;
 }
 /* line 137, ../sass/screen.scss */
 #pageHrBorder .a:before,
 #pageHrBorder .a:after {
-  border-color: #037E8C transparent;
+  border-color: #FFFFFF transparent;
 }
 /* line 141, ../sass/screen.scss */
 #pageHrBorder .a:before {
@@ -153,7 +153,7 @@ body {
 /* line 148, ../sass/screen.scss */
 #pageHrBorder .s:before,
 #pageHrBorder .s:after {
-  background: #037E8C;
+  background: #FFFFFF;
 }
 /* line 152, ../sass/screen.scss */
 #pageHrBorder .s:before {
@@ -166,7 +166,7 @@ body {
 
 /* line 160, ../sass/screen.scss */
 #page {
-  background: #037e8c;
+  background: #FFFFFF;
   position: relative;
   height: 123.45%;
   top: 100%;
