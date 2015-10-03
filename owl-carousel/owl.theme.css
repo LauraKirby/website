@@ -11,26 +11,28 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #FFF;
+	color: #92DCE5;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
-	margin: 5px;
-	padding: 3px 10px;
-	font-size: 12px;
+	margin: 2%;
+	padding: 1% 7%;
+	font-size: 100%;
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-	background: #404040;
 	filter: Alpha(Opacity=90);/*IE7 fix*/
-	opacity: 0.5;
+	
 }
 /* Clickable class fix problem with hover on touch devices */
 /* Use it for non-touch hover action */
+
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
+
+
 }
 
 /* Styling Pagination*/
@@ -39,7 +41,10 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
+	text-align: center;
+
 }
+
 .owl-theme .owl-controls .owl-page span{
 	display: block;
 	width: 12px;
@@ -50,7 +55,8 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #404040;
+	background: #DEDBD2;
+
 }
 
 .owl-theme .owl-controls .owl-page.active span,
@@ -60,6 +66,7 @@
 }
 
 /* If PaginationNumbers is true */
+
 
 .owl-theme .owl-controls .owl-page span.owl-numbers{
 	height: auto;

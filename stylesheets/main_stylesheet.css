@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
-
 /*-----------------  GENERAL ----------------- */
 html, body {
   height: 100%;
@@ -8,8 +6,8 @@ html, body {
 }
 
 body {
-  font-family: "Varela Round";
-  background: #404040;
+  font-family: 'Helvetica Neue';
+  background: #FFFFFF;
 }
 
 * {
@@ -19,24 +17,14 @@ body {
 }
 /*-----------------  GENERAL FONTS  ----------------- */
 
-.pacificoFont {
-  font-family: 'Pacifico', cursive;
-  text-align: center
-}
-.workSansFont {
-  font-family: 'Work Sans', sans-serif;
-  text-align: left;
-  margin-left: 2%
-}
 .addPaddingTop {
   padding-top: 20%;
 }
 
-.navText{
-  font-size: 130%;
-  font-family: 'Work Sans', sans-serif;
-  padding-left: 1%;
-
+.h2 {
+  color: #576066;
+  font-style: 'Helvetica Neue'; 
+  font-size: 200%;
 }
 /*-----------------  GENERAL COLORS  ----------------- */
 .white {
@@ -74,7 +62,7 @@ a.textGray:hover{
 }
 a.linkBlue{
   color: #92DCE5;
-
+  font-size: 120%;
 }
 
 .marginTop {
@@ -117,19 +105,13 @@ a.linkBlue{
 
 .oneColMargin {
   padding: 4% 4%;
+
 }
 .wordWrap {
   word-wrap: break-word;
 }
 .alignRight {
   float: right;
-}
-.backGrey {
-  background-color: #404040;
-}
-.darkTeal {
-  background-color: #126071;
-    padding-bottom: 2%;
 }
 
 .floatL {
@@ -152,7 +134,8 @@ h3{
 
 /*-----------------  SLIDING HEADER ----------------- */
 .fontHr { 
-	font-family: Varela Round; 
+	font-family: 'Helvetica Neue'; 
+  color: #576066;
 }
 
 
@@ -167,7 +150,7 @@ h3{
 }
 /* line 44, ../sass/screen.scss */
 #header .center {
-  background: rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
   text-align: center;
   position: absolute;
   color: #FFFFFF;
@@ -190,7 +173,7 @@ h3{
   line-height: 1em;
   font-size: 11em;
   margin: 0;
-  font-family: "Varela Round";
+  font-family: "Helvetica Neue";
 }
 /* line 68, ../sass/screen.scss */
 #header .center .middle span {
@@ -201,14 +184,14 @@ h3{
 /* line 83, ../sass/screen.scss */
 #pageHr, #pageHrBorder {
   position: absolute;
-  border-bottom: 31px solid #FFFFFF;
+  border-bottom: 31px solid #DEDBD2;
   margin-top: -45px;
   height: 25px;
   display: block;
   right: 0px;
   left: 0px;
   top: 100%;
-  opacity: 0.7;
+
 }
 /* line 94, ../sass/screen.scss */
 #pageHr .a:before,
@@ -308,8 +291,8 @@ h3{
   height: 0;
   border-left: 14px solid transparent;
   border-right: 14px solid transparent;
-  border-top: 17px solid #404040;
-  vertical-align: 50%;
+  border-top: 17px solid #FFFFFF;
+  vertical-align: 90%;
 }
 
 .centerish {
@@ -399,6 +382,10 @@ h3{
   margin-left: 5%;
 }
 
+.ten.column.wide{
+  min-width: 300px;
+}
+
 /*-----------------  BLOG ----------------- */
 a.linkBlue{
   color: #92DCE5;
@@ -415,7 +402,6 @@ a.linkBlue{
 
 .blogText {
   font-size: 120%;
-
 }
 
 .blogTitle {
@@ -426,12 +412,21 @@ a.linkBlue{
 .blogMargin {
   margin-left: 15%;
   margin-right: 15%;
+  padding-bottom: 5%;
 }
 
 .blogBehindText {
   background-color: #FEF3F4;
   border-radius: 5px;
-  padding: 4% 4%;
+  padding: 3% 3%;
+}
+
+.blogFooter {
+  float: right;
+  padding-bottom: 5%; 
+}
+.afterCodeSnip {
+  padding-top: 3%;
 }
 
 /*-----------------  FOOTER ----------------- */
