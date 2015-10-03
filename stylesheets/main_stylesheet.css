@@ -6,8 +6,9 @@ html, body {
 }
 
 body {
-  font-family: 'Helvetica Neue';
+  font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
   background: #FFFFFF;
+  font-size: 120%;
 }
 
 * {
@@ -23,8 +24,10 @@ body {
 
 h2 {
   color: #576066;
-  font-style: 'Helvetica Neue'; 
+  font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
   font-size: 300%;
+  padding-bottom: 3%;
+  padding-top: 3%;
 }
 /*-----------------  GENERAL COLORS  ----------------- */
 .white {
@@ -125,8 +128,9 @@ a.textGray:hover{
 
 /*-----------------  SLIDING HEADER ----------------- */
 .fontHr { 
-	font-family: 'Helvetica Neue'; 
+	font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
   color: #576066;
+  font-size: 200%
 }
 
 
@@ -164,7 +168,7 @@ a.textGray:hover{
   line-height: 1em;
   font-size: 11em;
   margin: 0;
-  font-family: "Helvetica Neue";
+  font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
 }
 /* line 68, ../sass/screen.scss */
 #header .center .middle span {
@@ -344,7 +348,6 @@ a.textGray:hover{
 
 .projectsTitle{
   font-size: 200%;
-  font-family: 'Work Sans', sans-serif;
 }
 
 .projectTopRated {
@@ -403,7 +406,6 @@ a.linkBlue{
 
 .blogTitle {
   font-size: 170%;
-  font-family: 'Work Sans', sans-serif;
   color: #404040;
 }
 .blogMargin {
