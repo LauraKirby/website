@@ -21,10 +21,10 @@ body {
   padding-top: 20%;
 }
 
-.h2 {
+h2 {
   color: #576066;
   font-style: 'Helvetica Neue'; 
-  font-size: 200%;
+  font-size: 300%;
 }
 /*-----------------  GENERAL COLORS  ----------------- */
 .white {
@@ -59,10 +59,6 @@ a.textGray{
 a.textGray:hover{
   color: #FFFFFF;
   font-style: 'Helvetica Neue'; 
-}
-a.linkBlue{
-  color: #92DCE5;
-  font-size: 120%;
 }
 
 .marginTop {
@@ -117,11 +113,6 @@ a.linkBlue{
 .floatL {
   float: left;
 }
-
-h3{
-  font-size: 200%;
-  color: white;
-}   
 
 .marginOneCol {
   padding-top: 5%;
@@ -343,6 +334,12 @@ h3{
   padding-left: 4%;
   padding-right: 4%;
   padding-bottom: 6%;
+}
+
+.projectText {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 120%;
 }
 
 .projectsTitle{
