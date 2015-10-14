@@ -5,8 +5,9 @@ html, body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background: #FFFFFF;
-  font-size: 120%;
+  font-size: 115%;
   color: #576066; 
+  font-weight: normal;
 }
 
 * {
@@ -116,7 +117,11 @@ a.textGray:hover{
 .addPaddingTop {
   padding-top: 20%;
 }
+.addPaddingLess{
+  padding-right: 5%;
+  padding-left: 5%;
 
+}
 .sectionMargin {
   margin-left: 15%;
   margin-right: 15%;
@@ -124,11 +129,6 @@ a.textGray:hover{
 }
 
 /*-----------------  SLIDING HEADER ----------------- */
-.fontHr { 
-  color: #576066;
-  font-size: 200%;
-}
-
 
 #header {
   background: no-repeat center;
@@ -156,7 +156,7 @@ a.textGray:hover{
   margin-top: -6em;
   right: 0;
   left: 0;
-  top: 50%;
+  top: 30%;
 }
 /* line 61, ../sass/screen.scss */
 #header .center .middle h1 {
@@ -291,6 +291,20 @@ a.textGray:hover{
   margin-bottom: 0%;
   margin-top: 0%;
 }
+/*-----------------  NAV BAR  & HEADER -----------------*/
+
+.hrLaura { 
+  color: #576066;
+}
+
+.hrSubtitle {
+  padding-bottom: 8%;
+  font-size: 200%;
+}
+
+.nav {
+  margin-bottom: 40%;
+}
 
 /*-----------------  ABOUT ME  -----------------*/
 
@@ -337,11 +351,10 @@ a.textGray:hover{
 .projectText {
   padding-top: 1%;
   padding-bottom: 1%;
-  font-size: 120%;
 }
 
 .projectsTitle{
-  font-size: 200%;
+
 }
 
 .projectTopRated {
@@ -381,25 +394,16 @@ a.textGray:hover{
 }
 
 /*-----------------  BLOG ----------------- */
-a.linkBlue{
-  color: #92DCE5;
-
+.boldText {
+  font-weight: bolder
 }
 a.linkBlue{
   color: #92DCE5;
+  font-weight: bolder
 
 }
-
-.blogMainTitle{
-}
-
-.blogText {
-  font-size: 120%;
-}
-
-h3, .blogTitle {
-  font-size: 170%;
-
+a.linkBlue:hover{
+  color: #779FA4;
 }
 
 .blogBehindText {
@@ -407,20 +411,44 @@ h3, .blogTitle {
   border-radius: 5px;
   padding: 3% 3%;
 }
-
+.blogPost{
+  position: relative;
+}
 .blogFooter {
   float: right;
-  padding-bottom: 5%; 
+  display: inline-block;
 }
+
 .afterCodeSnip {
   padding-top: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.sources {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.ui.basic.button.tumblrButton {
+  zoom: 1;
+  *display: inline;/*IE7 life-saver */
+  margin: 2%;
+  padding: 1% 7%;
+  font-size: 100%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  filter: Alpha(Opacity=90);/*IE7 fix*/
+  color: #92DCE5;
+  
 }
 
 /*-----------------  FOOTER ----------------- */
 .contactMe{
   color: #92DCE5;
-  font-size: 120%;
+  font-weight: bolder;
   text-align: center;
+  font-size: 115%;
 }
 
 a.iconColor {
@@ -432,10 +460,8 @@ a.iconColor:hover {
 }
 
 .socialLinks {
-  margin-top: 4%;
   padding-top: 2%;
-  padding-left: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   text-align: center;
 }
 

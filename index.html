@@ -35,9 +35,43 @@
 <div id="header">
   <div class="center">
     <div class="middle">
-      <h1 class="fontHr">Laura</h1>
-      <span><h3 class="fontHr">A full-stack developer.</h3></span>
+      
+      
+        <div class="ui grid center aligned">
+          <!-- row one -->
+          <div class="sixteen wide column">
+            <h1 class="hrLaura">Laura</h1>
+          </div>
+          
+          <!-- row two -->
+          <div class="sixteen wide column">
+            <h2 class="hrSubtitle">A full-stack developer.</h2>
+          </div>
+          
+          <!-- row three -->
+          <div class="two wide column"> </div>
+          <div class="two wide column">
+            <a class="linkBlue" href="About">About</a>
+          </div>
+          <div class="one wide column"> </div> 
+          <div class="two wide column">
+            <a class="linkBlue" href="Projects">Projects</a>
+          </div>
+          <div class="one wide column"> </div> 
+          <div class="two wide column">
+            <a class="linkBlue" href="Blog">Blog</a>
+          </div>  
+          <div class="one wide column"> </div>
+          <div class="two wide column">
+            <a class="linkBlue" href="Contact">Contacts</a>
+          </div>
+          <div class="three wide column"> </div> 
+        </div>
+
+        
+    
     </div>
+
   </div>
 </div>
 
@@ -129,11 +163,11 @@
 <div class="marginOneCol pink">
   <div class="clearfix sectionMargin">
 
-  <!-- row one - the columns add up to 16-->
 
-            <h2 class="blogMainTitle">Blog</h2>
-            <h3 class="blogTitle">Ruby's Singleton Class</h3>
-            <div class="blogText">
+
+            <h2>Blog</h2>
+            <h3>Ruby's Singleton Class</h3>
+            <div class="blogPost">
               <p > Singleton classes, not to be confused with the singleton design pattern, refers to adding methods to only one instance of a class. </p><p>  Huh? </p><p>  Ruby allows you to explicitly specify a receiver when defining methods. Thus, you can add a method to one object instance of a class. The syntax is similar to what is used when creating class methods. However, we&rsquo;re adding a method to the object. </p><p>  Upon adding a method to an object Ruby inserts a new anonymous class into the inheritance hierarchy as a container to hold these new methods. A singleton class does not have a name, therefore it is anonymous. A new object cannot be instantiated from a singleton class. </p><p>  New instances of your original class, before you created the singleton class, will not have the anonymous singleton class, and thus will not have access to its methods. </p>
               <div class="blogBehindText">
                 <pre class="prettyprint linenums"><code class="language-ruby">foobar = Array.new
@@ -151,20 +185,26 @@ bizbat.size  # =&gt; 0
               </div>
             
               <p class="afterCodeSnip">
-              <strong>Ruby is cool!</strong>
+                Ruby is cool!
               </p>
-              <p>
+              
+              <div class="sources">
                 <div>Sources:</div>
-                  <a class="textGray" href="http://ola-bini.blogspot.com/2006/09/ruby-metaprogramming-techniques.html" class="iconColor" target="blank">- Ruby Metaprogramming</a> <br>
-                  <a class="textGray" href="http://www.devalot.com/articles/2008/09/ruby-singleton" class="iconColor" target="blank">- Ruby Singleton</a>
-                </p>
-                <p></p>
-                  <div class="blogFooter">
-                    Like what you see?  <a class="linkBlue" href="http://codetoempower.com/" target="blank">Follow me on Tumblr</a>
+                <a class="textGray" href="http://ola-bini.blogspot.com/2006/09/ruby-metaprogramming-techniques.html" class="iconColor" target="blank">- Ruby Metaprogramming</a> <br>
+                <a class="textGray" href="http://www.devalot.com/articles/2008/09/ruby-singleton" class="iconColor" target="blank">- Ruby Singleton</a>
+              </div>
+             
+              <div class="ui grid right aligned">
+                <div class="seven wide column"></div>
+                <div class="ten wide column">
+                  <strong>Like what you see?</strong><a class="ui basic button tumblrButton" href="http://codetoempower.com/" target="blank">Follow me on Tumblr</a>
                 </div>
-              </div> <!-- end blogPost div/class  -->
-            </div>
-       </div>
+              </div>
+                
+   
+            </div> <!-- end blogPost div/class  -->
+   </div>
+</div>
 
 
 
@@ -173,13 +213,33 @@ bizbat.size  # =&gt; 0
 
 <div class="marginOneCol white">
 
-<div class="clearfix  socialLinks">
-                    <p class="contactMe">Email: laurakirby26@gmail.com</p>
-                    <a href="https://github.com/LauraKirby" class="iconColor"><i class="huge github icon"></i></a>
-                    <a href="https://twitter.com/kirby_laura" class="iconColor"><i class="huge twitter icon"></i></a> 
-                    <a href="http://codetoempower.com/" class="iconColor"><i class="huge tumblr icon"></i></a>
-                    <a href="https://www.linkedin.com/in/laurakirby26" class="iconColor"><i class="huge linkedin icon"></i></a>
-              </div>
+  <div class="clearfix  socialLinks">
+    
+      <div class="ui grid center aligned">
+        <!-- row one -->
+        <div class="sixteen wide column">
+           <p class="contactMe">laurakirby26@gmail.com</p>
+        </div>
+
+        <!-- row two -->
+        <div class="three wide column"> </div>
+        <div class="one wide column">
+          <a href="https://github.com/LauraKirby" class="iconColor"><i class="big github icon"></i></a>
+        </div>
+        <div class="one wide column">
+          <a href="http://codetoempower.com/" class="iconColor"><i class="big tumblr icon"></i></a>
+        </div>  
+        <div class="one wide column">
+          <a href="https://twitter.com/kirby_laura" class="iconColor"><i class="big twitter icon"></i></a> 
+        </div>
+        <div class="one wide column">
+          <a href="https://www.linkedin.com/in/laurakirby26" class="iconColor"><i class="big linkedin icon"></i></a>
+        </div>
+        <div class="three wide column"> </div> 
+      
+      </div>  <!-- end footer grid -->
+
+  </div>
 </div>
 
 </div> <!-- end page id page -->
