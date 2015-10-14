@@ -3,12 +3,10 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-}
-
-body {
-  font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
+  font-family: 'Roboto', sans-serif;
   background: #FFFFFF;
   font-size: 120%;
+  color: #576066; 
 }
 
 * {
@@ -24,7 +22,6 @@ body {
 
 h2 {
   color: #576066;
-  font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
   font-size: 300%;
   padding-bottom: 3%;
   padding-top: 3%;
@@ -50,18 +47,12 @@ h2 {
   background-color: #ABABAB;
 }
 
-.textGray {
-  color: #576066;
-  font-style: 'Helvetica Neue'; 
-}
 a.textGray{
-  color: #576066;
-  font-style: 'Helvetica Neue'; 
+  color: #576066; 
   opacity: .5;
 }
 a.textGray:hover{
-  color: #FFFFFF;
-  font-style: 'Helvetica Neue'; 
+  color: #FFFFFF; 
 }
 
 .marginTop {
@@ -126,11 +117,16 @@ a.textGray:hover{
   padding-top: 20%;
 }
 
+.sectionMargin {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 5%;
+}
+
 /*-----------------  SLIDING HEADER ----------------- */
 .fontHr { 
-	font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
   color: #576066;
-  font-size: 200%
+  font-size: 200%;
 }
 
 
@@ -168,7 +164,6 @@ a.textGray:hover{
   line-height: 1em;
   font-size: 11em;
   margin: 0;
-  font-family: 'HelveticaNeue=Light', 'Helevtica Neue Light';
 }
 /* line 68, ../sass/screen.scss */
 #header .center .middle span {
@@ -318,7 +313,6 @@ a.textGray:hover{
 
 .aboutMeText{
   font-size: 110%;
-  font-family: 'Work Sans', sans-serif;
 }
 
 /*in line block*/
@@ -397,21 +391,15 @@ a.linkBlue{
 }
 
 .blogMainTitle{
-  font-size: 200%;
 }
 
 .blogText {
   font-size: 120%;
 }
 
-.blogTitle {
+h3, .blogTitle {
   font-size: 170%;
-  color: #404040;
-}
-.blogMargin {
-  margin-left: 15%;
-  margin-right: 15%;
-  padding-bottom: 5%;
+
 }
 
 .blogBehindText {
@@ -432,7 +420,6 @@ a.linkBlue{
 .contactMe{
   color: #92DCE5;
   font-size: 120%;
-  font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
 
