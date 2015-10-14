@@ -15,5 +15,23 @@ $(document).ready(function() {
       // itemsTablet: false,
       // itemsMobile : false
   });
+
+
+
+  $('#aboutLink').click(function() {
+    $.scrollTo($('#about'), 1000);
+  });
+
+  $('#projectsLink').click(function() {
+    $.scrollTo($('#projects'), 1000);
+  });
+
+  $('#blogLink').click(function() {
+    $.scrollTo($('#blog'), 1000);
+  });
+
+  $('#contactLink').click(function() {
+    $.scrollTo($('#contact'), 1000);
+  });
  
 }); //end doc.ready
