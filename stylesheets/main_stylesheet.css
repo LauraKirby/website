@@ -19,13 +19,16 @@ html, body {
 
 .addPaddingTop {
   padding-top: 20%;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 400%;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-  color: #576066;
-  font-size: 300%;
-  padding-bottom: 3%;
-  padding-top: 3%;
+  font-size: 250%;
+  font-family: 'Roboto', sans-serif;
 }
 /*-----------------  GENERAL COLORS  ----------------- */
 .white {
@@ -61,15 +64,24 @@ a.textGray:hover{
   padding: 4% 4%;
 }
 
+.linkBlue {
+  color: #92DCE5;
+}
+a.linkBlue{
+  color: #92DCE5;
+  font-weight: bolder
+}
+
+a.linkBlue:hover{
+  color: #779FA4;
+}
+.linkBlue:hover {
+  color: #779FA4;
+}
 /*-----------------  GENERAL SPACING  ----------------- */
 .clearfix {
   overflow: auto;
   zoom: 1;
-}
-
-.oneColMargin {
-  padding: 4% 4%;
-
 }
 
 .alignRight {
@@ -118,17 +130,10 @@ a.textGray:hover{
   top: 30%;
 }
 /* line 61, ../sass/screen.scss */
-#header .center .middle h1 {
-  font-weight: normal;
-  line-height: 1em;
-  font-size: 11em;
+#header .center h1 {
   margin: 0;
 }
-/* line 68, ../sass/screen.scss */
-#header .center .middle span {
-  line-height: 1em;
-  font-size: 1em;
-}
+
 
 /* line 83, ../sass/screen.scss */
 #pageHr, #pageHrBorder {
@@ -177,13 +182,11 @@ a.textGray:hover{
 /* line 121, ../sass/screen.scss */
 #pageHr .s:before, #pageHrBorder .s:before {
   margin-right: 25px;
-  height: 25px;
   right: 50%;
 }
 /* line 126, ../sass/screen.scss */
 #pageHr .s:after, #pageHrBorder .s:after {
   margin-left: 25px;
-  height: 25px;
   left: 50%;
 }
 
@@ -204,11 +207,6 @@ a.textGray:hover{
 /* line 144, ../sass/screen.scss */
 #pageHrBorder .a:after {
   margin-left: -5.5px;
-}
-/* line 148, ../sass/screen.scss */
-#pageHrBorder .s:before,
-#pageHrBorder .s:after {
-  background: #FFFFFF;
 }
 /* line 152, ../sass/screen.scss */
 #pageHrBorder .s:before {
@@ -251,28 +249,23 @@ a.textGray:hover{
   margin-top: 0%;
 }
 /*-----------------  NAV BAR  & HEADER -----------------*/
+#aboutLink{
+  color: #92DCE5;
+}
 
 .hrLaura { 
   color: #576066;
-  font-size: 600%;
-  padding-top: 8%;
   font-family: 'Roboto', sans-serif;
 }
-
-.hrSubtitle {
-  font-size: 200%;
-  font-family: 'Roboto', sans-serif;
-}
-
 .nav {
   margin-bottom: 40%;
 }
 
 .addPosition{
-  width: 600px; 
-  height: 20px; 
-  position:fixed;
-
+  margin-top: 25%;
+}
+.laura{
+  margin-top: 15%;
 }
 
 /*-----------------  ABOUT ME  -----------------*/
@@ -366,14 +359,6 @@ a.textGray:hover{
 .boldText {
   font-weight: bolder
 }
-a.linkBlue{
-  color: #92DCE5;
-  font-weight: bolder
-
-}
-a.linkBlue:hover{
-  color: #779FA4;
-}
 
 .blogBehindText {
   background-color: #FEF3F4;
@@ -447,7 +432,6 @@ a.iconColor:hover {
 }
 
 .main.menu {
-    margin-top: 4em;
     border-radius: 0;
     border: none;
     box-shadow: none;
@@ -456,19 +440,13 @@ a.iconColor:hover {
       padding 0.5s ease
     ;
   }
-  .main.menu .item img.logo {
-    margin-right: 1.5em;
-  }
-
   .overlay {
     float: left;
-    margin: 0em 3em 1em 0em;
   }
   .overlay .menu {
     left: 0;
     transition: left 0.5s ease;
   }
-
   .main.menu.fixed {
     background-color: #FFFFFF;
     border: 1px solid #DDD;
@@ -476,18 +454,6 @@ a.iconColor:hover {
   }
   .overlay.fixed .menu {
     left: 800px;
-  }
-
-  .text.container .left.floated.image {
-    margin: 2em 2em 2em -4em;
-  }
-  .text.container .right.floated.image {
-    margin: 2em -4em 2em 2em;
-  }
-
-  .ui.footer.segment {
-    margin: 5em 0em 0em;
-    padding: 5em 0em;
   }
 
  .zIndexOne{
