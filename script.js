@@ -16,34 +16,12 @@ $(document).ready(function() {
       // itemsMobile : false
   });
 
-// //------------- NAV BAR -------------
-//   $('.ui.sticky')
-//   .sticky({
-//     context: '#navBar',
-//     pushing: true
-//   });
-
-//   $('#aboutLink').click(function() {
-//     $.scrollTo($('#about'), 1000);
-//   });
-
-//   $('#projectsLink').click(function() {
-//     $.scrollTo($('#projects'), 1000);
-//   });
-
-//   $('#blogLink').click(function() {
-//     $.scrollTo($('#blog'), 1000);
-//   });
-
-//   $('#contactLink').click(function() {
-//     $.scrollTo($('#contact'), 1000);
-//   });
-
- 
 
 
 
-//------------- NAV BAR DEMO-------------
+
+
+//------------- NAV BAR -------------
  // fix main menu to page on passing
       $('.main.menu').visibility({
         type: 'fixed'
@@ -65,6 +43,23 @@ $(document).ready(function() {
         on: 'hover'
       });
 
+//------------- NAV BAR SCROLL -------------
+function scrollNav() {
+  $('.nav a').click(function(){  
+    //Toggle Class
+    $(".active").removeClass("active");      
+    $(this).closest('li').addClass("active");
+    var theClass = $(this).attr("class");
+    $('.'+theClass).parent('li').addClass('active');
+    //Animate
+    $('html, body').stop().animate({
+        scrollTop: $( $(this).attr('href') ).offset().top - 160
+    }, 400);
+    return false;
+  });
+  $('.scrollTop a').scrollTop();
+}
+scrollNav();
 
 
 }); //end doc.ready

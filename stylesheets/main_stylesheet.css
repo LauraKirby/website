@@ -248,17 +248,15 @@ a.linkBlue:hover{
   margin-bottom: 0%;
   margin-top: 0%;
 }
-/*-----------------  NAV BAR  & HEADER -----------------*/
-#aboutLink{
-  color: #92DCE5;
-}
+
+
 
 .hrLaura { 
   color: #576066;
   font-family: 'Roboto', sans-serif;
 }
 .nav {
-  margin-bottom: 40%;
+
 }
 
 .addPosition{
@@ -267,6 +265,70 @@ a.linkBlue:hover{
 .laura{
   margin-top: 15%;
 }
+
+/*-----------------  NAV BAR & SCROLL -----------------*/
+a {
+  color: #f46830; 
+  &:hover {
+    color: #4fb3e8;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  text-decoration: none;}
+
+nav {
+  float: left;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #3b5a77;
+  position: fixed;}
+
+  nav .padded {
+    padding: 30px;}
+
+ul {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0; /*Padding Fix*/
+  padding: 0;}
+
+ul li {
+  float: left; 
+  display: inline; 
+  margin-right: 0px;
+  &:nth-child(even) a {
+    background: #4a6c8c ;
+  }
+  list-style: none;}
+
+ul li a {
+  display: block;
+  padding: 20px;
+  font-family: "Exo", sans-serif;
+  font-weight: 200;
+  background: #6788a7;
+  &:hover {
+    color: #fff;
+    background: #e6764e;
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+  }
+  color: #fff;
+  text-decoration: none;}
+
+ul li.active a {
+  background: #58c7d0 ;}
+
+// scrollTop Styles
+ul li.scrollTop {
+float: right;}
 
 /*-----------------  ABOUT ME  -----------------*/
 
@@ -430,7 +492,9 @@ a.iconColor:hover {
 .red{
   background-color: red;
 }
-
+.ui.menu{
+  font-size: 100%;
+}
 .main.menu {
     border-radius: 0;
     border: none;
