@@ -32,58 +32,65 @@
 </head>
 <body>
 
-<div id="header">
+<div id="header ">
   <div class="center">
     <div class="middle">
       
-      
-        <div class="ui grid center aligned">
+        <div class="ui grid center aligned zIndexTwo">
           <!-- row one -->
-          <div class="sixteen wide column">
+          <div class="sixteen wide column ">
             <h1 class="hrLaura">Laura</h1>
           </div>
           
           <!-- row two -->
           <div class="sixteen wide column">
-            <h2 class="hrSubtitle">A full-stack developer.</h2>
+              <h2 class="hrSubtitle">A full-stack developer.</h2>
           </div>
           
-          <!-- row three -->
-          <div class="two wide column"> </div>
-          <div class="two wide column">
-            <a class="linkBlue" id="aboutLink" href="#about"><strong>About Me</strong></a>
+          <!-- row three DEMO -->
+
+          <div class="sixteen wide column">
+            <div class="ui borderless main menu">
+              <div class="ui text container">
+                
+                <div class="item">
+                  <a class="item linkBlue" id="aboutLink" href="#about"><strong>About Me</strong></a>  
+                </div>
+                
+                <div class="item">
+                  <a class="linkBlue" id="projectsLink" href="#projects"><strong>Projects</strong></a>
+                </div>
+                  
+                <div class="item">
+                  <a class="linkBlue" id="blogtLink" href="#blog"><strong>Blog</strong></a>
+                </div>
+                
+                <div class="item">
+                  <a class="linkBlue" id="contactLink" href="#contact"><strong>Contact</strong></a>
+                </div>
+
+
+              </div>
+            </div>
           </div>
-          <div class="one wide column"> </div> 
-          <div class="two wide column">
-            <a class="linkBlue" id="projectsLink" href="#projects"><strong>Projects</strong></a>
+
+          <div class="sixteen wide column addPosition">
           </div>
-          <div class="one wide column"> </div> 
-          <div class="two wide column">
-            <a class="linkBlue" id="blogtLink" href="#blog"><strong>Blog</strong></a>
-          </div>  
-          <div class="one wide column"> </div>
-          <div class="two wide column">
-            <a class="linkBlue" id="contactLink" href="#contact"><strong>Contact</strong></a>
-          </div>
-          <div class="three wide column"> </div> 
+
         </div>
-
-        
-    
     </div>
-
   </div>
 </div>
 
   <i class="s"></i>
   <i class="a"></i>
-
+  <div id="about"></div> <!-- place here for navbar about link -->
   <div id="pageHr">
     <div class="triangle centerish"></div>
   </div>
 
 
-<div id="page"> <!-- id page -->
+<div id="page zIndexTwo"> <!-- id page -->
 
 <div class="ui grid"></div>
 
@@ -92,7 +99,7 @@
   <div class="sectionMargin">
     
   
-  <h2 id="about">About</h2>
+  <h2>About</h2>
 
               <div class="clearfix aboutMeMargin">
                 <img class="ui image profilePic" src="./assets/laura_profile.png" alt="About Laura">
@@ -104,8 +111,9 @@
                     </p>
                   </span>
                 </div> 
-             
+             <div id="projects"></div> <!-- placed here for navbar -->
   </div> <!-- end sectionMargin class -->
+
 </div> <!-- end marginOneCol backRed -->
 
 
@@ -116,7 +124,7 @@
      <div class="ui container">
                <div id="owl-demo" class="owl-carousel owl-theme">  
                         <div class="item">
-                            <h2 id="projects">Projects</h2>
+                            <h2>Projects</h2>
                                  <img class="projectPic" src="./assets/toprated_solo.png" alt="Top Rated">
                                  <p class="projectText"><strong>Node, Express, Mongoose, JQuery, AJAX</strong><br>
                                  Objective: CRUD, Non relational data structure and user authentication</p>
@@ -152,6 +160,7 @@
                                  <a class="linkBlue" href="https://github.com/LauraKirby/HealthyMe_iOS"target="blank">Github</a>
                        </div>
               </div> <!-- end owl carousel -->
+              <div id="blog"></div> <!-- placed here for blog nav bar -->
             </div> 
           </div>
         </div>
@@ -163,9 +172,7 @@
 <div class="marginOneCol pink">
   <div class="clearfix sectionMargin">
 
-
-
-            <h2 id="blog">Blog</h2>
+            <h2 >Blog</h2>
             <h3>Ruby's Singleton Class</h3>
             <div class="blogPost">
               <p > Singleton classes, not to be confused with the singleton design pattern, refers to adding methods to only one instance of a class. </p><p>  Huh? </p><p>  Ruby allows you to explicitly specify a receiver when defining methods. Thus, you can add a method to one object instance of a class. The syntax is similar to what is used when creating class methods. However, we&rsquo;re adding a method to the object. </p><p>  Upon adding a method to an object Ruby inserts a new anonymous class into the inheritance hierarchy as a container to hold these new methods. A singleton class does not have a name, therefore it is anonymous. A new object cannot be instantiated from a singleton class. </p><p>  New instances of your original class, before you created the singleton class, will not have the anonymous singleton class, and thus will not have access to its methods. </p>
