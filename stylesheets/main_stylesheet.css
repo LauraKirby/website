@@ -352,7 +352,7 @@ ul li.scrollTop {
 /*-----------------  ABOUT ME  -----------------*/
 
 .profilePic {
-  width: 20%;
+  width: 30%;
   border-radius: 2%;
   float: left;
   display: inline-block;
@@ -370,14 +370,10 @@ ul li.scrollTop {
   padding-bottom: 5%;
 }
 
-.aboutMeText{
-  font-size: 110%;
-}
-
 /*in line block*/
 .boxProfileText {
   display: inline-block;
-  width: 75%;
+  width: 70%;
 }
 
 .aboutMeLinks {
@@ -386,6 +382,9 @@ ul li.scrollTop {
 }
 
 /*-----------------  PROJECTS ----------------- */
+#owl-demo{
+  margin-top: 20%;
+}
 .projectMargin {
   margin-left: 5%;
   margin-top: 4%;
@@ -398,7 +397,6 @@ ul li.scrollTop {
 
 .projectText {
   padding-top: 1%;
-  padding-bottom: 1%;
 }
 
 .projectsTitle{
@@ -418,15 +416,10 @@ ul li.scrollTop {
   padding-bottom: 4%;
 }
 
-.buttonSet {
-  max-width: 75%;
-}
-
 .projectPic{
   border-radius: 2%;
   width: 100%;
   margin: 0 auto;
-
 }
 
 /*in line block*/
@@ -442,11 +435,11 @@ ul li.scrollTop {
   min-width: 300px;
 }
 .github{
-
+  margin-top: 5%;
 }
+
 .heroku{
-
-
+  padding-top: 5%;
 }
 /*-----------------  BLOG ----------------- */
 .boldText {
@@ -496,6 +489,7 @@ ul li.scrollTop {
   font-weight: bolder;
   text-align: center;
   font-size: 115%;
+  padding-top: 20%;
 }
 
 a.iconColor {

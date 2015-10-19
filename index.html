@@ -81,7 +81,6 @@
 
   <i class="s"></i>
   <i class="a"></i>
-  <div id="about"></div> <!-- place here for navbar about link -->
   <div id="pageHr">
     <div class="triangle centerish"></div>
   </div>
@@ -96,10 +95,10 @@
   
     
   
-  <h2>About</h2>
+  <h2 id="about">About</h2> <!-- ID needed for navbar about link -->
 
               <div class="clearfix aboutMeMargin">
-                <img class="ui image profilePic" src="./assets/laura_profile.png" alt="About Laura">
+                <img class="ui image profilePic" src="./assets/laura_profile2.png" alt="About Laura">
                   <span class="boxProfileText">
                     <p>
                     <p>I am passionate about writing code, solving problems and self-improvement. In my spare time I enjoy learning mobile dev, volunteering for Women Who Code and staying physically active.</p>
@@ -114,62 +113,67 @@
 
 
 
-<div class="marginOneCol white">
+<div class="marginOneCol softGray">
   <div  class="sectionMargin">
-    <div id="projects"></div> <!-- placed here for navbar -->
+    
 
 
      <div class="ui container">
+
+      <div class="ui grid">
+        <div class="two wide column">
+          <h2 id="projects">Projects</h2> <!-- id needed for navbar -->
+        </div>
+        <div class="twelve wide column">
+       
+              <div class="owl-wrapper-outer">
                <div id="owl-demo" class="owl-carousel owl-theme">  
                         <div class="item">
-                            <h2>Projects</h2>
-                                 <img class="ui image projectPic" src="./assets/toprated_solo.png" alt="Top Rated">
-                                 <p class="projectText"><strong>Node, Express, Mongoose, JQuery, AJAX</strong><br>
-                                 Objective: CRUD, Non relational data structure and user authentication</p>
-                                 <p><a class="linkBlue heroku" href="https://topratedlk.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <a class="linkBlue github" href="https://github.com/LauraKirby/topRated"target="blank">Github</a></p>
+                                 <img class="ui image projectPic" src="./assets/toprated_solo.png" alt="Top Rated"><br>
+                                 <strong class="projectText">Node, Express, Mongoose, JQuery, AJAX</strong><br>
+                                 Objective: CRUD, Non relational data structure and user authentication<br><br>
+                                 <a class="linkBlue heroku" href="https://topratedlk.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <a class="linkBlue github" href="https://github.com/LauraKirby/topRated"target="blank">Github</a>
 
                         </div>
                                           
                         <div class="item">
-                               <h2>Projects</h2>
-                                 <img class="ui image projectPic" src="./assets/median_solo.png" alt="Median">
-                                 <p class="projectText"><strong>Ruby on Rails, Postgres, Front-End Javascript, SASS</strong><br>Objective: Work in a group to create a CRUD application using Ruby on Rails. Application will provide a mid-point and a venue for friends coming from different locations to meet </p>
-                                 <p><a class="linkBlue heroku" href="https://median.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <a class="linkBlue github" href="https://github.com/LauraKirby/Median"target="blank">Github</a></p>
+                                 <img class="ui image projectPic" src="./assets/median_solo.png" alt="Median"><br>
+                                 <strong class="projectText">Ruby on Rails, Postgres, Front-End Javascript, SASS</strong><br>Objective: Work in a group to create a CRUD application using Ruby on Rails. Application will provide a mid-point and a venue for friends coming from different locations to meet.
+                                 <br><br><a class="linkBlue heroku" href="https://median.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <a class="linkBlue github" href="https://github.com/LauraKirby/Median"target="blank">Github</a>
                        </div>
 
                         <div class="item">
-                               <h2>Projects</h2>
-                                 <img class="ui image projectPic" src="./assets/healthy_me_solo.png" alt="Median">
-                                 <p class="projectText"><strong>iOS &amp; Ruby on Rails</strong>
-                                 Objective: Integrate Fitbit to create a web and a native iOS mobile application for runners to track their health activity and view race information when preparing for a professional running race. </p>
-                                 <p><a class="linkBlue heroku" href="https://healthyme.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                 <a class="linkBlue github" href="https://github.com/LauraKirby/healthy_me"target="blank">Github</a></p>
+                                 <img class="ui image projectPic" src="./assets/healthy_me_solo.png" alt="Median"><br>
+                                 <strong class="projectText">iOS &amp; Ruby on Rails</strong><br>
+                                 Objective: Integrate Fitbit to create a web and a native iOS mobile application for runners to track their health activity and view race information when preparing for a professional running race. 
+                                 <br><br><a class="linkBlue heroku" href="https://healthyme.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <a class="linkBlue github" href="https://github.com/LauraKirby/healthy_me"target="blank">Github</a>
 
                        </div>
 
                         <div class="item">
-                               <h2>Projects</h2>
-                                 <img class="ui image projectPic" src="./assets/healthy_me_ios_solo.png" alt="Median">
-                                 <p class="projectText"><strong>iOS &amp; Ruby on Rails</strong><br>
-                                 Objective: Integrate Fitbit to create a web and a native iOS mobile application for runners to track their health activity and view race information when preparing for a professional running race. </p>
-                                 <p><a class="linkBlue heroku" href="https://healthyme.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                 <img class="ui image projectPic" src="./assets/healthy_me_ios_solo.png" alt="Median"><br>
+                                 <strong class="projectText">iOS &amp; Ruby on Rails</strong><br>
+                                 Objective: Integrate Fitbit to create a web and a native iOS mobile application for runners to track their health activity and view race information when preparing for a professional running race.
+                                 <br><br><a class="linkBlue heroku" href="https://healthyme.herokuapp.com/" target="blank">Heroku</a>&nbsp;&nbsp;&nbsp;&nbsp;
                                  <a class="linkBlue github" href="https://github.com/LauraKirby/HealthyMe_iOS"target="blank">Github</a>
-                                 </p>
+                                 
                        </div>
               </div> <!-- end owl carousel -->
+              </div>
+              </div>
+              <div class="two wide column"></div>
             </div> 
           </div>
         </div>
+      </div>
    
                     
-                 
-
-<div id="blog"></div> <!-- placed here for blog nav bar -->
 <div class="marginOneCol pink">
   <div class="clearfix sectionMargin">
-            <h2 >Blog</h2>
+            <h2 id="blog">Blog</h2> <!-- ID placed for blog nav bar -->
             <h3>Ruby's Singleton Class</h3>
             <div class="blogPost">
               <p > Singleton classes, not to be confused with the singleton design pattern, refers to adding methods to only one instance of a class. </p><p>  Huh? </p><p>  Ruby allows you to explicitly specify a receiver when defining methods. Thus, you can add a method to one object instance of a class. The syntax is similar to what is used when creating class methods. However, we&rsquo;re adding a method to the object. </p><p>  Upon adding a method to an object Ruby inserts a new anonymous class into the inheritance hierarchy as a container to hold these new methods. A singleton class does not have a name, therefore it is anonymous. A new object cannot be instantiated from a singleton class. </p><p>  New instances of your original class, before you created the singleton class, will not have the anonymous singleton class, and thus will not have access to its methods. </p>
@@ -218,11 +222,16 @@ bizbat.size  # =&gt; 0
 
   <div class="clearfix  socialLinks">
     
-      <div id="contact" class="ui grid center aligned contact">
+      <div class="ui grid center aligned contact">
         <!-- row one -->
-        <div class="sixteen wide column">
+        <div class="one wide column"></div>
+        <div class="two wide column">
+          <h2 id="contact"></h2>
+        </div>
+        <div class="ten wide column">
            <p class="contactMe">laurakirby26@gmail.com</p>
         </div>
+        <div class="three wide column"></div>
 
         <!-- row two -->
         <div class="three wide column"> </div>
