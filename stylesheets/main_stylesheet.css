@@ -356,7 +356,9 @@ ul li.scrollTop {
   border-radius: 2%;
   float: left;
   display: inline-block;
-  margin: 1%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
 }
 
 .aboutMeMargin{
@@ -375,9 +377,12 @@ ul li.scrollTop {
 /*in line block*/
 .boxProfileText {
   display: inline-block;
-  width: 60%;
-  margin: 1%;
-  margin-left: 5%;
+  width: 75%;
+}
+
+.aboutMeLinks {
+  color: #ABABAB;
+
 }
 
 /*-----------------  PROJECTS ----------------- */
@@ -421,6 +426,7 @@ ul li.scrollTop {
   border-radius: 2%;
   width: 100%;
   margin: 0 auto;
+
 }
 
 /*in line block*/
@@ -435,7 +441,13 @@ ul li.scrollTop {
 .ten.column.wide{
   min-width: 300px;
 }
+.github{
 
+}
+.heroku{
+
+
+}
 /*-----------------  BLOG ----------------- */
 .boldText {
   font-weight: bolder
