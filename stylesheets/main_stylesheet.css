@@ -291,7 +291,7 @@ nav {
 ul {
   /*float: left;*/
   width: 100%;
-  /*margin: 10px 0px 5px 0; /*Padding Fix*/*/
+  /* margin: 10px 0px 5px 0; Padding Fix */
   padding: 0;}
 
 ul li {
@@ -299,9 +299,10 @@ ul li {
   /*margin-left: -5%;*/
   display: inline; 
   /*margin-right: 0px;*/
-  &:nth-child(even) a {
+  /* &:nth-child(even) a {
     background: #4a6c8c ;
-  }
+  } */
+  
   list-style: none;}
 
 ul li a {
@@ -311,7 +312,7 @@ ul li a {
   font-weight: 200;
   &:hover {
     color: #fff;
-    background: #e6764e;
+    background: #ABABAB transparent;
     -webkit-transition: all .2s ease-in-out;
        -moz-transition: all .2s ease-in-out;
         -ms-transition: all .2s ease-in-out;
